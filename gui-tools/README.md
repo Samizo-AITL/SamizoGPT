@@ -53,16 +53,16 @@ gui-tools/
 ```
 
 ## 🔄 今後の展開案
-	•	prompt_templates.md → .json への変換スクリプト
-	•	GUI＋CLI両対応（ヘッドレス環境でも活用可能）
-	•	教材用途向けテンプレートセットプリロード
-	•	プロンプト内容のメタ情報（難易度、カテゴリ、出力形式）によるフィルタ機能
+	prompt_templates.md → .json への変換スクリプト
+	GUI＋CLI両対応（ヘッドレス環境でも活用可能）
+	教材用途向けテンプレートセットプリロード
+	プロンプト内容のメタ情報（難易度、カテゴリ、出力形式）によるフィルタ機能
 
 ---
 
 ## ✍ 作成者：三溝 真一 / Samizo-AITL
-	•	Email: shin3t72@gmail.com
-	•	GitHub: https://github.com/Samizo-AITL
+	Email: shin3t72@gmail.com
+	GitHub: https://github.com/Samizo-AITL
 
 ---
 
