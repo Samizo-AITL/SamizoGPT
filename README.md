@@ -124,3 +124,8 @@ This project is licensed under the MIT License.
   Email：[shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 
 ---
+
+▶︎ 💬 SamizoGPT – ご意見・ディスカッションはこちら
+
+---
+
