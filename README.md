@@ -125,7 +125,12 @@ This project is licensed under the MIT License.
 
 ---
 
-▶︎ 💬 SamizoGPT – ご意見・ディスカッションはこちら
+## 💬 フィードバック・ご意見 / Feedback & Suggestions
+
+このプロジェクトに関する**改善提案・使用例の共有・質問など**は、以下の Discussions にて受け付けています。  
+ぜひお気軽にご参加ください！
+
+▶︎ 💬 [SamizoGPT – ご意見・ディスカッションはこちら](https://github.com/Samizo-AITL/SamizoGPT/discussions)
 
 ---
 
