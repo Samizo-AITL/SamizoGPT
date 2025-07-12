@@ -7,7 +7,7 @@ A unified framework for prompt engineering and project design using ChatGPT.
 
 ## 📌 概要 | Overview
 
-本リポジトリは、技術開発、教育、AI制御など多岐にわたるプロジェクトを  
+本リポジトリは、技術開発・教育・AI制御など多岐にわたるプロジェクトを  
 ChatGPTと連携して効率的に構築・運営するための「プロンプト体系化」と「プロジェクト設計指針」を提供します。
 
 This repository provides a structured system for prompt engineering and project management  
@@ -19,20 +19,25 @@ to support development, education, and AI-based control systems using ChatGPT.
 
 ```plaintext
 SamizoGPT/
-├── README.md                 ← プロジェクト概要（本ファイル）
-├── Samizo-v1x/               ← ChatGPT用プロンプト体系（アシスタント化）
+├── README.md                    ← プロジェクト概要（本ファイル）
+├── SamizoGPT-v1x/               ← ChatGPT活用マニュアル（プロンプト・設定・使用法）
 │   ├── prompt_templates.md
 │   ├── assistant_config.md
 │   └── usage_guide.md
-├── Project Design Hub/       ← 各プロジェクトの設計・分類・ドキュメント整備
+├── Project Design Hub/          ← 各プロジェクトの設計・分類・拡張構想
 │   ├── project_overview.md
 │   ├── directory_structure.md
 │   └── expansion_plan.md
-├── Edusemi-v4x/              ← 半導体教材（Sky130/RTL-to-GDSII）
-├── EduController/            ← 制御理論＋AI制御教材
-├── AITL-H/                   ← FSM＋PID＋LLMによる知能制御アーキテクチャ
-└── docs/                     ← GitHub Pages用（任意）
+├── Edusemi-v4x/                 ← 半導体教材（Sky130/RTL-to-GDSII）
+├── EduController/               ← 制御理論＋AI制御教材
+├── AITL-H/                      ← FSM＋PID＋LLMによる知能制御アーキテクチャ
+├── gui-tools/                   ← プロンプトGUI選択ツール（構想中）
+├── api-scripts/                 ← ChatGPT API連携スクリプト
+├── template-builder/            ← 教材・ドキュメント自動整形支援ツール
+├── private/                     ← 非公開技術アーカイブ（Git除外対象）
+└── docs/                        ← GitHub Pages用（Webドキュメント）
 ```
+
 ## 🧠 プロンプト体系化 | Prompt Engineering
 
 ChatGPTとの連携を最大化するためのプロンプトテンプレート、使用ルール、命名ガイドラインなどを提供します。  
@@ -86,10 +91,11 @@ This repository includes real-world educational and technical projects powered b
 
 ## 🚀 今後の展望 | Future Development
 
-- プロンプト＋GUI連携ツール（CLI/GUIでプロンプトを自動生成）
-- GitHub Pagesによるオンラインドキュメント整備
-- LLMベース制御モデルとの統合展開（AITL-H 応用）
-- ChatGPT APIとの連携スクリプト（自動プロンプト変換など）
+- プロンプト＋GUI連携ツール（CLI/GUIでプロンプトを自動生成）  
+- GitHub Pagesによるオンラインドキュメント整備  
+- LLMベース制御モデルとの統合展開（AITL-H 応用）  
+- ChatGPT APIとの連携スクリプト（自動プロンプト変換など）  
+- 教材テンプレートの自動PDF化・構成展開（template-builder）
 
 ---
 
