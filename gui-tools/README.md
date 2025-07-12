@@ -1,68 +1,66 @@
-# 🖥 gui-tools/README.md
+# 🖥 gui-tools – プロンプトGUI支援ツール群
 
-SamizoGPT向けプロンプト選択・管理支援GUIツール  
-GUI-based prompt selection and generation tools for SamizoGPT
+プロンプトテンプレートのGUI選択・自動生成を実現するツール構想・試作環境  
+GUI-based utilities for selecting and generating ChatGPT prompts interactively.
 
 ---
 
 ## 🎯 目的 | Purpose
 
-- ChatGPT用のプロンプトテンプレートを**GUIで一覧・選択・カスタマイズ**
-- ユーザーが**直感的にプロンプトを構築・実行・保存**できる環境を提供
-- 教育・設計・制御などの**ユースケース別に整理・切り替え可能**
+- 再利用可能なプロンプトテンプレートを**GUIから手軽に選択・編集**  
+- 対話スタイル・出力形式・目的（説明・設計・制御）に応じて**動的にテンプレート生成**  
+- 教育・技術演習における**ノーコード化／簡易化**を支援
 
 ---
 
-## 🧩 機能構想 | Planned Features
+## 🧩 機能構想 | Functional Concepts
 
-| 機能 | 内容 |
+| 機能項目 | 説明 |
+|----------|------|
+| テンプレート選択 | 用途別に分類されたプロンプトをGUIで選択可能（例：制御／要約／状態遷移） |
+| プレースホルダ編集 | `{技術用語}` や `{仕様記述}` などの項目を直接入力 |
+| 出力フォーマット設定 | プレーンテキスト／Markdown／コードブロック付き形式 |
+| LLM連携（構想） | ChatGPT APIと連携して即時出力生成も検討（CLI/API統合へ） |
+
+---
+
+## 🔧 試作候補 | Prototype Tools
+
+| 技術 | 内容 |
 |------|------|
-| テンプレート一覧表示 | `prompt_templates.md` からカテゴリ別に読み込み |
-| フィルタリング／タグ選択 | 用途・プロジェクト別にプロンプトを絞り込み |
-| プロンプト編集 | プレースホルダ埋め込みGUI（フォーム形式） |
-| 実行連携（ChatGPT API） | 入力→応答取得→表示（ローカル or Webベース） |
-| 出力フォーマット指定 | 応答の形式（箇条書き／表／コード）を事前に設定 |
-| ローカル保存／履歴管理 | プロンプトのバージョン・事例・応答ログを保存 |
+| `Tkinter` | ローカルGUIアプリ（軽量・Python標準） |
+| `Streamlit` | WebベースUI（共有／クラウド実行向き） |
+| `Jupyter Widgets` | 教材との統合用・Notebook上でのGUI操作支援 |
+| `VS Code拡張` | テキストエディタ上でのテンプレート支援も視野に |
 
 ---
 
-## 📦 技術構成（想定）
-
-| 項目 | ツール／ライブラリ候補 |
-|------|------------------------|
-| GUIフレームワーク | `Tkinter`（Python標準）／`PyQt`／`Streamlit`（Webベース） |
-| Markdown読み取り | `markdown`, `PyYAML`, `frontmatter` など |
-| API連携 | OpenAI API／ローカルモデル対応予定 |
-| プロンプトデータ形式 | `.md` + `.json`（タグ・カテゴリ・変数のメタ管理） |
-| 出力形式 | Markdown, PlainText, JSON, HTML（選択可） |
-
----
-
-## 🛠 フォルダ構成案
+## 🗂 ディレクトリ構成（予定） | Directory Plan
 
 ```plaintext
 gui-tools/
-├── README.md                   ← 本ドキュメント
-├── prompt_selector.py         ← GUIツール本体（CLI/GUI両対応）
-├── templates/                 ← .json化されたプロンプト定義群
-│   ├── control_templates.json
-│   └── edusemi_templates.json
-├── resources/                 ← アイコン／画像素材／UI用ファイル
-├── styles/                    ← GUIスタイルシート（任意）
-└── output/                    ← 実行結果ログ・保存履歴
+├── README.md               ← 本ファイル
+├── prototypes/             ← 試作コード群（tkinter_gui.py など）
+├── components/             ← 入力UI部品・出力処理部品
+├── templates/              ← テンプレートJSON/Markdown資源
+└── docs/                   ← 利用マニュアル・スクリーンショット
 ```
+---
 
-## 🔄 今後の展開案
-	prompt_templates.md → .json への変換スクリプト
-	GUI＋CLI両対応（ヘッドレス環境でも活用可能）
-	教材用途向けテンプレートセットプリロード
-	プロンプト内容のメタ情報（難易度、カテゴリ、出力形式）によるフィルタ機能
+## 🚀 拡張案 | Future Ideas
+
+- `prompt_templates.md` を JSON 化し、テンプレート選択を GUI 上で動的に切替可能に  
+- GUI操作で生成されたプロンプトを `prompt_log.md` に保存（履歴管理と再利用）  
+- GitHub Pages + Streamlit により、**Web上で利用可能なプロンプト生成ツール**を実装  
+- 使用状況・テンプレート人気度を収集する **簡易アナリティクス機能**（ローカルで完結）
 
 ---
 
-## ✍ 作成者：三溝 真一 / Samizo-AITL
-	Email: shin3t72@gmail.com
-	GitHub: https://github.com/Samizo-AITL
+## ✍ 管理者 | Maintainer
+
+**三溝 真一 / Samizo-AITL**  
+Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+GitHub: [https://github.com/Samizo-AITL](https://github.com/Samizo-AITL)
 
 ---
 
