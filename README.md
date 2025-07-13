@@ -3,6 +3,8 @@
 ChatGPTを活用したプロンプト設計とプロジェクト管理のための統合フレームワーク  
 A unified framework for prompt engineering and project design using ChatGPT.
 
+🇯🇵 [日本語版](./README.md)｜🌐 [English version](./README_en.md)
+
 ---
 
 ## 📌 概要 | Overview
