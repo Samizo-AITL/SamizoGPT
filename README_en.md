@@ -4,6 +4,8 @@
 
 SamizoGPT is an integrated framework that supports structured prompt design, project documentation, and LLM-assisted workflows in technical fields such as semiconductor design, control theory, and intelligent systems.
 
+🇯🇵 [日本語版](./README.md)
+
 ---
 
 ## 📌 Overview
