@@ -4,7 +4,6 @@ SamizoGPTは、ChatGPTを活用したプロンプト設計とプロジェクト�
 
 This release marks the first public version (v1.0.0) of **SamizoGPT**, a framework that unifies prompt engineering with technical project design using ChatGPT.
 
-🇯🇵 [日本語版](./README.md)｜🌐 [English version](./README_en.md)
 ---
 
 ## ✅ 含まれる内容 / Included Contents
