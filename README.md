@@ -125,6 +125,15 @@ This project is licensed under the MIT License.
 
 ---
 
+## 📄 追加資料 / Additional Materials
+
+| ファイル | 内容 |
+|---------|------|
+| [`SamizoGPT-v1x/prompt_templates_en.md`](./SamizoGPT-v1x/prompt_templates_en.md) | 英語版プロンプトテンプレート集（教育・設計・制御・レビュー） |
+| [`Project Design Hub/project_integration_map.md`](./Project%20Design%20Hub/project_integration_map.md) | Edusemi / EduController / AITL-H の連携構造と導入パス |
+
+---
+
 ## 💬 フィードバック・ご意見 / Feedback & Suggestions
 
 このプロジェクトに関する**改善提案・使用例の共有・質問など**は、以下の Discussions にて受け付けています。  
