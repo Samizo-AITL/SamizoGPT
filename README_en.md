@@ -111,6 +111,17 @@ MIT License © 2025 Shinichi Samizo
 
 ---
 
+## 📄 Additional Materials
+
+| File | Description |
+|------|-------------|
+| [`prompt_templates_en.md`](./SamizoGPT-v1x/prompt_templates_en.md) | Prompt templates in English (education, design, control, review) |
+| [`project_integration_map.md`](./Project%20Design%20Hub/project_integration_map.md) | Integration structure and entry path for Edusemi / EduController / AITL-H |
+| [`fsm_yaml_template.yaml`](./template-builder/fsm_yaml_template.yaml) | FSM design template in YAML format (e.g., idle → move → error) |
+| [`SoC_DesignKit_by_ChatGPT`](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | HDL-based control templates (FSM / PID / LLM / C-to-HDL / testbenches) |
+
+---
+
 ## 💬 Feedback
 
 Feel free to use [GitHub Discussions](https://github.com/Samizo-AITL/SamizoGPT/discussions)
