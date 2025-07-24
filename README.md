@@ -81,7 +81,7 @@ ChatGPTとの連携を最大化するためのプロンプトテンプレート�
 | [`Edusemi-v4x`](./Edusemi-v4x/) | 半導体設計教材（Sky130／EDA演習） |
 | [`EduController`](./EduController/) | 制御理論・状態遷移・AI制御の学習教材 |
 | [`AITL-H`](./AITL-H/) | FSM + PID + LLM による知能制御アーキテクチャ |
-| [`SoC_DesignKit_by_ChatGPT`](./EduController/SoC_DesignKit_by_ChatGPT/) | FSM/PID/LLM制御のHDLテンプレート教材（EduController Part05/09と連携） |
+| [`SoC_DesignKit_by_ChatGPT`](../EduController/SoC_DesignKit_by_ChatGPT/) | FSM/PID/LLM制御のHDLテンプレート教材（EduController Part05/09と連携） |
 
 ---
 
