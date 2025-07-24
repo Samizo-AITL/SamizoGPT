@@ -81,6 +81,7 @@ ChatGPTとの連携を最大化するためのプロンプトテンプレート�
 | [`Edusemi-v4x`](./Edusemi-v4x/) | 半導体設計教材（Sky130／EDA演習） |
 | [`EduController`](./EduController/) | 制御理論・状態遷移・AI制御の学習教材 |
 | [`AITL-H`](./AITL-H/) | FSM + PID + LLM による知能制御アーキテクチャ |
+| [`SoC_DesignKit_by_ChatGPT`](./EduController/SoC_DesignKit_by_ChatGPT/) | FSM/PID/LLM制御のHDLテンプレート教材（EduController Part05/09と連携） |
 
 ---
 
@@ -126,6 +127,7 @@ This project is licensed under the MIT License.
 | [`prompt_templates_en.md`](./SamizoGPT-v1x/prompt_templates_en.md) | 英語版プロンプトテンプレート集（教育・設計・制御・レビュー） |
 | [`project_integration_map.md`](./Project%20Design%20Hub/project_integration_map.md) | Edusemi / EduController / AITL-H の連携構造と導入パス |
 | [`fsm_yaml_template.yaml`](./template-builder/fsm_yaml_template.yaml) | FSM制御設計テンプレート（YAML形式）【例：idle → move → error】 |
+| [`SoC_DesignKit_by_ChatGPT`](./EduController/SoC_DesignKit_by_ChatGPT/) | HDLベースの制御テンプレート教材（FSM / PID / LLM / C→HDL / テストベンチ） |
 
 ---
 
