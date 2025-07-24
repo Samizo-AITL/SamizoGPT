@@ -74,6 +74,7 @@ See the relationship map between core educational projects:
 | [`Edusemi-v4x`](./Edusemi-v4x/) | Semiconductor education with Sky130, EDA, and ChatGPT |
 | [`EduController`](./EduController/) | Control theory + AI control with Python/ROS |
 | [`AITL-H`](./AITL-H/) | FSM + PID + LLM hybrid intelligent control |
+| [`SoC_DesignKit_by_ChatGPT`](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | HDL-based control template project for FSM/PID/LLM integration (linked with EduController Part05/09) |
 
 ---
 
