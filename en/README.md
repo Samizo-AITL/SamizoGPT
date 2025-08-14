@@ -66,10 +66,10 @@ SamizoGPT/
 
 | **File** | **Description** |
 |----------|-----------------|
-| [`prompt_templates.md`](./SamizoGPT-v1x/prompt_templates.md) | Prompt templates in **Japanese** |
-| [`prompt_templates_en.md`](./SamizoGPT-v1x/prompt_templates_en.md) | **English** prompt templates for explanation, design, education, control |
-| [`assistant_config.md`](./SamizoGPT-v1x/assistant_config.md) | Assistant **tone and role definitions** |
-| [`usage_guide.md`](./SamizoGPT-v1x/usage_guide.md) | How to **write and use effective prompts** |
+| [`prompt_templates.md`](../SamizoGPT-v1x/prompt_templates.md) | Prompt templates in **Japanese** |
+| [`prompt_templates_en.md`](../SamizoGPT-v1x/prompt_templates_en.md) | **English** prompt templates for explanation, design, education, control |
+| [`assistant_config.md`](../SamizoGPT-v1x/assistant_config.md) | Assistant **tone and role definitions** |
+| [`usage_guide.md`](../SamizoGPT-v1x/usage_guide.md) | How to **write and use effective prompts** |
 
 ---
 
@@ -79,7 +79,7 @@ See the relationship map between core educational projects:
 
 | **File** | **Description** |
 |----------|-----------------|
-| [`project_integration_map.md`](./Project%20Design%20Hub/project_integration_map.md) | Diagram and guide on how **Edusemi**, **EduController**, and **AITL-H** are linked |
+| [`project_integration_map.md`](../Project%20Design%20Hub/project_integration_map.md) | Diagram and guide on how **Edusemi**, **EduController**, and **AITL-H** are linked |
 
 ---
 
@@ -132,9 +132,9 @@ See the relationship map between core educational projects:
 
 | **File** | **Description** |
 |----------|-----------------|
-| [`prompt_templates_en.md`](./SamizoGPT-v1x/prompt_templates_en.md) | Prompt templates in **English** (education, design, control, review) |
-| [`project_integration_map.md`](./Project%20Design%20Hub/project_integration_map.md) | Integration structure and entry path for **Edusemi / EduController / AITL-H** |
-| [`fsm_yaml_template.yaml`](./template-builder/fsm_yaml_template.yaml) | **FSM design template** in **YAML format** (e.g., `idle → move → error`) |
+| [`prompt_templates_en.md`](../SamizoGPT-v1x/prompt_templates_en.md) | Prompt templates in **English** (education, design, control, review) |
+| [`project_integration_map.md`](../Project%20Design%20Hub/project_integration_map.md) | Integration structure and entry path for **Edusemi / EduController / AITL-H** |
+| [`fsm_yaml_template.yaml`](../template-builder/fsm_yaml_template.yaml) | **FSM design template** in **YAML format** (e.g., `idle → move → error`) |
 | [`SoC_DesignKit_by_ChatGPT`](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | **HDL-based control templates** (**FSM / PID / LLM / C-to-HDL / testbenches**) |
 
 ---
