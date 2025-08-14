@@ -1,5 +1,7 @@
 # **SamizoGPT**
 
+[![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **ChatGPTを活用したプロンプト設計とプロジェクト管理のための統合フレームワーク**  
 **A unified framework for prompt engineering and project design using ChatGPT.**
 
