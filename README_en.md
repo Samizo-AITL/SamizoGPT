@@ -1,5 +1,7 @@
 # 🧠 **SamizoGPT**
 
+[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
+
 **A Unified Framework for Prompt Engineering and Project Design Using ChatGPT**
 
 **SamizoGPT** is an integrated framework that supports **structured prompt design**, **project documentation**, and **LLM-assisted workflows** in technical fields such as **semiconductor design**, **control theory**, and **intelligent systems**.
