@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SamizoGPT/README.md
+title: SamizoGPT/index.md
 ---
 
 ---
