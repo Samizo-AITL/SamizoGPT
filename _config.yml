@@ -1,0 +1,10 @@
+title: SamizoGPT
+description: Prompt engineering & project framework using ChatGPT
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: null
+
+# リポジトリ固有CSSを足したい時だけ
+# extra_css:
+#   - /assets/css/samizogpt.css
