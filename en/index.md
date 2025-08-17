@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SamizoGPT/en/index.md/
+# math: katex  # 数式が必要なページだけ
 ---
 
 ---
