@@ -113,47 +113,41 @@ SamizoGPT/
 
 ---
 
-## **📜 ライセンス | License**
+## 👤 執筆者情報 / Author
 
-このプロジェクトは **[MITライセンス](./LICENSE)** のもとで公開されています。  
-Educational and non-commercial use is **highly encouraged**.
-
----
-
-## 👤 **執筆者情報 / Author**
-
-**三溝 真一（Shinichi Samizo）**  
-- **信州大学大学院 電気電子工学 修了**  
-- 元 **セイコーエプソン**株式会社 技術者（1997年〜）
-
-📌 **経験領域**：  
-- **半導体デバイス（ロジック・メモリ・高耐圧混載）**  
-- **インクジェット薄膜ピエゾアクチュエータ**  
-- **PrecisionCoreプリントヘッド製品化・BOM管理・ISO教育**
-
-📬 **連絡先**  
-- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+| **📌 項目 / Item** | **内容 / Details** |
+|--------------------|--------------------|
+| **氏名 / Name** | **三溝 真一（Shinichi Samizo）**<br>*Shinichi Samizo* |
+| **学歴 / Education** | **信州大学大学院 電気電子工学 修了**<br>*M.S. in Electrical and Electronic Engineering, Shinshu University* |
+| **経歴 / Career** | **元 セイコーエプソン株式会社 技術者（1997年〜）**<br>*Former Engineer at Seiko Epson Corporation (since 1997)* |
+| **経験領域 / Expertise** | **半導体デバイス**（ロジック・メモリ・高耐圧混載）<br>*Semiconductor devices (logic, memory, high-voltage mixed integration)*<br>**インクジェット薄膜ピエゾアクチュエータ**<br>*Inkjet thin-film piezo actuators*<br>**PrecisionCoreプリントヘッド製品化・BOM管理・ISO教育**<br>*Productization of PrecisionCore printheads, BOM management, and ISO training* |
+| **✉️ Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:shin3t72@gmail.com) |
+| **🐦　X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=for-the-badge&logo=x)](https://x.com/shin3t72) |
+| **💻 GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
 
 ---
 
-## **📄 追加資料 / Additional Materials**
+## 📄 ライセンス / License
 
-| ファイル | 内容 |
-|---------|------|
-| [`prompt_templates_en.md`](./SamizoGPT-v1x/prompt_templates_en.md) | **英語版プロンプトテンプレート集** |
-| [`project_integration_map.md`](./Project%20Design%20Hub/project_integration_map.md) | **Edusemi / EduController / AITL-H の連携構造図** |
-| [`fsm_yaml_template.yaml`](./template-builder/fsm_yaml_template.yaml) | **FSM制御設計テンプレート（YAML形式）** |
-| [`SoC_DesignKit_by_ChatGPT`](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | **HDL制御テンプレート集（FSM / PID / LLM / C→HDL）** |
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](#-ライセンス--license)  
 
----
+> **本プロジェクトはハイブリッドライセンスを採用**  
+> *This project adopts a Hybrid License*  
+> 教材・コード・図表の性質に応じて以下のライセンスを適用します。  
+> *Different licenses are applied depending on whether the content is code, text, or figures.*
 
-## **💬 フィードバック・ご意見 / Feedback & Suggestions**
-
-このプロジェクトに関する**改善提案・使用例の共有・質問**などは、以下の**GitHub Discussions**にて受け付けています。  
-お気軽にご参加ください！
-
-▶︎ 💬 [Discussions – SamizoGPT ご意見はこちら](https://github.com/Samizo-AITL/SamizoGPT/discussions)
+| **📌 項目 / Item** | **ライセンス / License** | **説明 / Description** |
+|--------------------|--------------------------|------------------------|
+| **コード（Code）** | **[MIT License](https://opensource.org/licenses/MIT)** | 自由に使用・改変・再配布可<br>*Free to use, modify, and redistribute* |
+| **教材テキスト（Text materials）** | **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** | 著者表示必須<br>*Attribution required* |
+| **図表・イラスト（Figures & diagrams）** | **[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)** | 非商用利用のみ可<br>*Non-commercial use only* |
+| **外部引用（External references）** | 元ライセンスに従う<br>*Follow original license* | 引用元を明記<br>*Cite the original source* |
 
 ---
+
+## 💬 フィードバック / Feedback
+
+> 改善提案や議論は **GitHub Discussions** からお願いします。  
+> *Propose improvements or start discussions via **GitHub Discussions**.*
+
+[![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/SamizoGPT/discussions)
