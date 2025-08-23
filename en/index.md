@@ -104,7 +104,7 @@ See the relationship map between core educational projects:
 
 ---
 
-# 👤 Author Information
+## 👤 Author Information
 
 | **📌 Item** | **Details** |
 |-------------|-------------|
@@ -118,7 +118,7 @@ See the relationship map between core educational projects:
 
 ---
 
-# 📄 License
+## 📄 License
 
 [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](#-license)  
 
@@ -134,7 +134,7 @@ See the relationship map between core educational projects:
 
 ---
 
-# 💬 Feedback
+## 💬 Feedback
 
 > Please propose improvements or start discussions via **GitHub Discussions**.  
 
