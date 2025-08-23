@@ -104,47 +104,38 @@ See the relationship map between core educational projects:
 
 ---
 
-## 📜 **License**
+## 👤 Author Information
 
-**MIT License**  
-© 2025 **Shinichi Samizo**
-
----
-
-## 👤 **Author Information**
-
-**Shinichi Samizo**  
-- **M.S. in Electrical and Electronic Engineering, Shinshu University**  
-- Former **Seiko Epson** Corporation Engineer (since 1997)
-
-📌 **Areas of Expertise**:  
-- **Semiconductor Devices (Logic, Memory, High-Voltage Integrated with Logic)**  
-- **Inkjet Thin-Film Piezoelectric Actuators**  
-- **PrecisionCore Printhead Development, BOM Management, ISO Education**
-
-📬 **Contact**  
-- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+| **📌 Item** | **Details** |
+|-------------|-------------|
+| **Name** | **Shinichi Samizo（三溝 真一）**<br>*Shinichi Samizo* |
+| **Education** | **M.S. in Electrical and Electronic Engineering, Shinshu University** |
+| **Career** | **Former Engineer at Seiko Epson Corporation (1997–)** |
+| **Expertise** | **Semiconductor devices** (logic, memory, high-voltage mixed integration)<br>**Inkjet thin-film piezo actuators**<br>**Productization of PrecisionCore printheads, BOM management, ISO training** |
+| **✉️ Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:shin3t72@gmail.com) |
+| **🐦 X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=for-the-badge&logo=x)](https://x.com/shin3t72) |
+| **💻 GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
 
 ---
 
-## 📄 **Additional Materials**
+## 📄 License
 
-| **File** | **Description** |
-|----------|-----------------|
-| [`prompt_templates_en.md`](../SamizoGPT-v1x/prompt_templates_en.md) | Prompt templates in **English** (education, design, control, review) |
-| [`project_integration_map.md`](../Project%20Design%20Hub/project_integration_map.md) | Integration structure and entry path for **Edusemi / EduController / AITL-H** |
-| [`fsm_yaml_template.yaml`](../template-builder/fsm_yaml_template.yaml) | **FSM design template** in **YAML format** (e.g., `idle → move → error`) |
-| [`SoC_DesignKit_by_ChatGPT`](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | **HDL-based control templates** (**FSM / PID / LLM / C-to-HDL / testbenches**) |
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](#-license)  
 
----
+> **This project adopts a Hybrid License**  
+> Different licenses are applied depending on whether the content is code, text, or figures.
 
-## 💬 **Feedback**
-
-Feel free to use [**GitHub Discussions**](https://github.com/Samizo-AITL/SamizoGPT/discussions)  
-to share your **feedback, suggestions, or use cases**!
+| **📌 Item** | **License** | **Description** |
+|-------------|-------------|-----------------|
+| **Code** | **[MIT License](https://opensource.org/licenses/MIT)** | Free to use, modify, and redistribute |
+| **Text materials** | **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** | Attribution required |
+| **Figures & diagrams** | **[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)** | Non-commercial use only |
+| **External references** | Follow original license | Cite the original source |
 
 ---
 
+## 💬 Feedback
 
+> Please propose improvements or start discussions via **GitHub Discussions**.  
+
+[![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/SamizoGPT/discussions)
