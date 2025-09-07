@@ -1,0 +1,39 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{hyperref}
+
+\title{タイトル（日本語/英語）}
+\author{三溝 真一}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+概要を記述（150--200語程度）。
+\end{abstract}
+
+\section{Introduction}
+背景と目的。
+
+\section{Method}
+手法の説明。例の数式:
+\begin{equation}
+I_D = \mu C_{ox} \frac{W}{L}\Big[(V_{GS}-V_T)V_{DS}-\frac{V_{DS}^2}{2}\Big].
+\end{equation}
+
+\section{Results}
+図の例:
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.8\linewidth]{fig/sample.pdf}
+  \caption{サンプル図の説明}
+\end{figure}
+
+\section{Conclusion}
+まとめと今後の課題。
+
+\bibliographystyle{ieeetr}
+\bibliography{refs}
+\end{document}
