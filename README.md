@@ -122,14 +122,27 @@ SamizoGPT には、**回路・制御・論文執筆**の基礎を体験できる
 
 ---
 
-## **🚀 今後の展望 | Future Development**
+## 🚀 今後の展望 | Future Development
 
-- **プロンプト＋GUI連携ツール**（CLI/GUIでプロンプトを自動生成）  
-- **GitHub Pages**によるオンラインドキュメント整備  
-- **LLMベース制御モデル**との統合展開（AITL-H応用）  
-- **ChatGPT API**との連携スクリプト（自動プロンプト変換）  
-- **教材テンプレートの自動PDF化・整形展開（template-builder）**
+以下の機能はすでにプロトタイプや初期実装が進んでおり、  
+今後さらに強化・統合していく予定です。  
+*The following features are already prototyped or partially implemented, and will be further enhanced and integrated.*
 
+- **プロンプト＋GUI連携ツール**（`gui-tools/`）  
+  *Prompt + GUI integration tool (CLI/GUI-based prompt generation)*
+
+- **オンラインドキュメント整備**（`docs/` による GitHub Pages）  
+  *Online documentation using GitHub Pages (`docs/`)*
+
+- **LLMベース制御モデル統合**（`AITL-H/`）  
+  *Integration of LLM-based control models (AITL-H)*
+
+- **ChatGPT API連携スクリプト**（`api-scripts/`）  
+  *ChatGPT API integration scripts (`api-scripts/`)*
+
+- **教材テンプレートの自動PDF化・整形展開**（`template-builder/`）  
+  *Automated PDF generation and formatting of educational templates (`template-builder/`)*
+  
 ---
 
 ## 👤 執筆者情報 / Author
