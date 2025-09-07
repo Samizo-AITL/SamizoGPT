@@ -99,7 +99,10 @@ SamizoGPT/
 
 ## 🎓 教育・技術プロジェクト | Educational & Technical Projects
 
-本リポジトリには、以下の**教育・技術系プロジェクト**が含まれます。  
+本リポジトリには、以下の **教育・技術系プロジェクト** が含まれます。  
+*This repository includes the following educational and technical projects.*
+
+---
 
 ### 📘 教材プロジェクト | Educational Projects
 
@@ -114,17 +117,19 @@ SamizoGPT/
 
 ### 🛠 教育用テンプレート集 | Educational Templates
 
-SamizoGPT には、**回路・制御・論文執筆**の基礎を体験できる  
+SamizoGPT には、**回路・制御・論文執筆** の基礎を体験できる  
 最小限のテンプレート集も含まれています。  
+*SamizoGPT also includes minimal templates for experiencing the basics of circuits, control, and academic writing.*
 
 | ディレクトリ | 概要 |
 |--------------|------|
 | [**DeviceTemplates/**](./DeviceTemplates) | **NMOS/PMOS 特性テンプレート**（Id–Vd・Id–Vg）<br>*NMOS/PMOS characteristic templates (Id–Vd, Id–Vg)* |
-| [**InverterTemplates/**](./InverterTemplates) | **CMOSインバータ特性テンプレート**（VTC・過渡応答）<br>*CMOS inverter characteristic templates (VTC, transient)* |
+| [**InverterTemplates/**](./InverterTemplates) | **CMOS インバータ特性テンプレート**（VTC・過渡応答）<br>*CMOS inverter characteristic templates (VTC, transient)* |
 | [**ControlTemplates/**](./ControlTemplates) | **制御テンプレート集**（FSM、Step Response、Bode Plot）<br>*Control templates (FSM, Step response, Bode plot)* |
 | [**PaperTemplate/**](./PaperTemplate) | **LaTeX 論文雛形**（IEEEtran ベース）<br>*LaTeX paper template (based on IEEEtran)* |
 
-> 🔎 詳細な説明や使用方法は、各ディレクトリの README を参照してください。
+> 🔎 詳細な説明や使用方法は、各ディレクトリの README を参照してください。  
+> *See each directory's README for detailed descriptions and usage instructions.*
 
 ---
 
