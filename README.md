@@ -61,33 +61,39 @@ SamizoGPT/
 
 ---
 
-## **🧠 プロンプト体系化 | Prompt Engineering**
+## 🧠 プロンプト体系化 | Prompt Engineering
 
-**ChatGPT**との連携を最大化するための**プロンプトテンプレート**、**使用ルール**、**命名ガイドライン**などを提供します。  
-プロンプトは分類・再利用・体系化を目的に、**`SamizoGPT-v1x/`** に格納されています。
+**ChatGPT**との連携を最大化するための **プロンプトテンプレート**、**使用ルール**、**命名ガイドライン** を提供します。  
+*Provides **prompt templates**, **usage rules**, and **naming guidelines** to maximize integration with ChatGPT.*  
 
-📄 含まれる主なファイル：
+プロンプトは分類・再利用・体系化を目的に、**`SamizoGPT-v1x/`** に格納されています。  
+*Prompts are stored in **`SamizoGPT-v1x/`** for classification, reuse, and systematization.*
+
+📄 含まれる主なファイル | *Main files included*：
 
 | ファイル名 | 内容 |
 |------------|------|
-| [`prompt_templates.md`](./SamizoGPT-v1x/prompt_templates.md) | **分類済みプロンプト集**（説明、設計、教育、制御など） |
-| [`assistant_config.md`](./SamizoGPT-v1x/assistant_config.md) | **ChatGPTアシスタントの設定・口調・役割** |
-| [`usage_guide.md`](./SamizoGPT-v1x/usage_guide.md) | **効果的なプロンプト使用方法と注意点** |
+| [`prompt_templates.md`](./SamizoGPT-v1x/prompt_templates.md) | **分類済みプロンプト集**（説明、設計、教育、制御など）<br>*Categorized prompt collection (explanation, design, education, control, etc.)* |
+| [`assistant_config.md`](./SamizoGPT-v1x/assistant_config.md) | **ChatGPTアシスタントの設定・口調・役割**<br>*Assistant configuration: tone, role, and settings for ChatGPT* |
+| [`usage_guide.md`](./SamizoGPT-v1x/usage_guide.md) | **効果的なプロンプト使用方法と注意点**<br>*Effective usage guide and best practices for prompts* |
 
 ---
 
-## **🧩 プロジェクト設計と管理 | Project Design & Management**
+## 🧩 プロジェクト設計と管理 | Project Design & Management
 
 **教材・制御系・研究開発プロジェクト**を構造的に分類・整理し、**テンプレート化**します。  
-設計方針は **`Project Design Hub/`** に集約されています。
+*Classifies, organizes, and templates educational, control, and R&D projects in a structured way.*  
 
-📄 含まれる主なファイル：
+設計方針は **`Project Design Hub/`** に集約されています。  
+*Design principles are consolidated in **`Project Design Hub/`**.*
+
+📄 含まれる主なファイル | *Main files included*：
 
 | ファイル名 | 内容 |
 |------------|------|
-| [`project_overview.md`](./Project%20Design%20Hub/project_overview.md) | **プロジェクト全体の構成と関係図** |
-| [`directory_structure.md`](./Project%20Design%20Hub/directory_structure.md) | **命名規則・ディレクトリ構成・ファイルルール** |
-| [`expansion_plan.md`](./Project%20Design%20Hub/expansion_plan.md) | **今後の拡張計画（GUI・RTOS・LLM制御など）** |
+| [`project_overview.md`](./Project%20Design%20Hub/project_overview.md) | **プロジェクト全体の構成と関係図**<br>*Overall project structure and relationship diagrams* |
+| [`directory_structure.md`](./Project%20Design%20Hub/directory_structure.md) | **命名規則・ディレクトリ構成・ファイルルール**<br>*Naming conventions, directory structure, and file rules* |
+| [`expansion_plan.md`](./Project%20Design%20Hub/expansion_plan.md) | **今後の拡張計画（GUI・RTOS・LLM制御など）**<br>*Future expansion plan (GUI, RTOS, LLM-based control, etc.)* |
 
 ---
 
