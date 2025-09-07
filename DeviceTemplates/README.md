@@ -3,6 +3,8 @@ layout: default
 title: DeviceTemplates/README.md
 ---
 
+---
+
 # 🔬 DeviceTemplates
 
 NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレート集**  
