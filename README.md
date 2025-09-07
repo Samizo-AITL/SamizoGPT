@@ -102,8 +102,6 @@ SamizoGPT/
 本リポジトリには、以下の **教育・技術系プロジェクト** が含まれます。  
 *This repository includes the following educational and technical projects.*
 
----
-
 ### 📘 教材プロジェクト | Educational Projects
 
 | プロジェクト名 | 概要 |
@@ -112,8 +110,6 @@ SamizoGPT/
 | [**EduController/**](./EduController/) | **制御理論・状態遷移・AI制御教材**<br>*Control theory, state transition, and AI control training* |
 | [**AITL-H/**](./AITL-H/) | **FSM + PID + LLM 知能制御アーキテクチャ**<br>*Intelligent control architecture with FSM, PID, and LLM* |
 | [**SoC_DesignKit_by_ChatGPT**](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | **FSM/PID/LLM制御のHDLテンプレート教材**（EduControllerと連携）<br>*HDL template training for FSM/PID/LLM control (linked with EduController)* |
-
----
 
 ### 🛠 教育用テンプレート集 | Educational Templates
 
