@@ -69,8 +69,8 @@ NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレー
 ---
 
 ### PMOS @ 1.8 V
-- **Vg–Id 特性**  
-  <p align="center"><img src="./images/PMOS_VgId_1v8.png" width="80%"></p>
+  - **Vg–Id 特性**  
+  <p align="center"><img src="./images/PMOS_Vgid_1v8.png" width="80%"></p>
 - **Vd–Id 特性**（横軸は 0 → −VDD）  
   <p align="center"><img src="./images/PMOS_VdId_1v8.png" width="80%"></p>
 
