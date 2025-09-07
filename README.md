@@ -93,40 +93,33 @@ SamizoGPT/
 
 ## 🎓 教育・技術プロジェクト | Educational & Technical Projects
 
-本リポジトリには、以下の教育・技術系プロジェクトが含まれます。
+本リポジトリには、以下の**教育・技術系プロジェクト**が含まれます。  
 
-### 📘 教材プロジェクト
-- [**Edusemi-v4x/**](./Edusemi-v4x/)  
-  半導体設計教材（Sky130／EDA演習）
+### 📘 教材プロジェクト | Educational Projects
 
-- [**EduController/**](./EduController/)  
-  制御理論・状態遷移・AI制御の学習教材
+| プロジェクト名 | 概要 |
+|----------------|------|
+| [**Edusemi-v4x/**](./Edusemi-v4x/) | **半導体設計教材**（Sky130／EDA演習）<br>*Semiconductor design training (Sky130 / EDA practice)* |
+| [**EduController/**](./EduController/) | **制御理論・状態遷移・AI制御教材**<br>*Control theory, state transition, and AI control training* |
+| [**AITL-H/**](./AITL-H/) | **FSM + PID + LLM 知能制御アーキテクチャ**<br>*Intelligent control architecture with FSM, PID, and LLM* |
+| [**SoC_DesignKit_by_ChatGPT**](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | **FSM/PID/LLM制御のHDLテンプレート教材**（EduControllerと連携）<br>*HDL template training for FSM/PID/LLM control (linked with EduController)* |
 
-- [**AITL-H/**](./AITL-H/)  
-  FSM + PID + LLM による知能制御アーキテクチャ
+---
 
-- [**SoC_DesignKit_by_ChatGPT**](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT)  
-  FSM/PID/LLM制御のHDLテンプレート教材（EduControllerと連携）
+### 🛠 教育用テンプレート集 | Educational Templates
 
-### 🛠 教育用テンプレート集
 SamizoGPT には、**回路・制御・論文執筆**の基礎を体験できる  
 最小限のテンプレート集も含まれています。  
-「まず動かして理解し、その先は自分で応用する」ことを目的としています。  
 
-- [**DeviceTemplates/**](./DeviceTemplates)  
-  NMOS/PMOS Id–Vd・Id–Vg 基本特性  
-
-- [**InverterTemplates/**](./InverterTemplates)  
-  CMOS インバータの入出力特性（VTC）、遅延応答  
-
-- [**ControlTemplates/**](./ControlTemplates)  
-  FSM（Moore/Mealy）、Step Response、Bode Plot  
-
-- [**PaperTemplate/**](./PaperTemplate)  
-  LaTeX 論文雛形（IEEEtran ベース）  
+| ディレクトリ | 概要 |
+|--------------|------|
+| [**DeviceTemplates/**](./DeviceTemplates) | **NMOS/PMOS 特性テンプレート**（Id–Vd・Id–Vg）<br>*NMOS/PMOS characteristic templates (Id–Vd, Id–Vg)* |
+| [**InverterTemplates/**](./InverterTemplates) | **CMOSインバータ特性テンプレート**（VTC・過渡応答）<br>*CMOS inverter characteristic templates (VTC, transient)* |
+| [**ControlTemplates/**](./ControlTemplates) | **制御テンプレート集**（FSM、Step Response、Bode Plot）<br>*Control templates (FSM, Step response, Bode plot)* |
+| [**PaperTemplate/**](./PaperTemplate) | **LaTeX 論文雛形**（IEEEtran ベース）<br>*LaTeX paper template (based on IEEEtran)* |
 
 > 🔎 詳細な説明や使用方法は、各ディレクトリの README を参照してください。
-  
+
 ---
 
 ## **🚀 今後の展望 | Future Development**
