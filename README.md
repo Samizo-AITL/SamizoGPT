@@ -91,38 +91,41 @@ SamizoGPT/
 
 ---
 
-## **🎓 教育・技術プロジェクト | Educational & Technical Projects**
+## 🎓 教育・技術プロジェクト | Educational & Technical Projects
 
-本リポジトリには、以下の**実プロジェクト群**を含みます：
+本リポジトリには、以下の教育・技術系プロジェクトが含まれます。
 
-| プロジェクト名 | 概要 |
-|----------------|------|
-| [`Edusemi-v4x`](./Edusemi-v4x/) | **半導体設計教材**（Sky130／EDA演習） |
-| [`EduController`](./EduController/) | **制御理論・状態遷移・AI制御の学習教材** |
-| [`AITL-H`](./AITL-H/) | **FSM + PID + LLM による知能制御アーキテクチャ** |
-| [`SoC_DesignKit_by_ChatGPT`](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | **FSM/PID/LLM制御のHDLテンプレート教材**（EduControllerと連携） |
+### 📘 教材プロジェクト
+- [**Edusemi-v4x/**](./Edusemi-v4x/)  
+  半導体設計教材（Sky130／EDA演習）
 
----
+- [**EduController/**](./EduController/)  
+  制御理論・状態遷移・AI制御の学習教材
 
-## 🎓 教育用テンプレート集 | Educational Templates
+- [**AITL-H/**](./AITL-H/)  
+  FSM + PID + LLM による知能制御アーキテクチャ
 
+- [**SoC_DesignKit_by_ChatGPT**](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT)  
+  FSM/PID/LLM制御のHDLテンプレート教材（EduControllerと連携）
+
+### 🛠 教育用テンプレート集
 SamizoGPT には、**回路・制御・論文執筆**の基礎を体験できる  
-最小限のテンプレート集も含まれます。  
-「まず動かして理解し、その先は自分で応用する」ことを目的としています。
-
-📂 含まれるディレクトリ：
+最小限のテンプレート集も含まれています。  
+「まず動かして理解し、その先は自分で応用する」ことを目的としています。  
 
 - [**DeviceTemplates/**](./DeviceTemplates)  
-  NMOS/PMOS Id–Vd・Id–Vg 基本特性
+  NMOS/PMOS Id–Vd・Id–Vg 基本特性  
 
 - [**InverterTemplates/**](./InverterTemplates)  
-  CMOS インバータの入出力特性（VTC）、遅延応答
+  CMOS インバータの入出力特性（VTC）、遅延応答  
 
 - [**ControlTemplates/**](./ControlTemplates)  
-  FSM（Moore/Mealy）、Step Response、Bode Plot
+  FSM（Moore/Mealy）、Step Response、Bode Plot  
 
 - [**PaperTemplate/**](./PaperTemplate)  
-  LaTeX 論文雛形（IEEEtran ベース）
+  LaTeX 論文雛形（IEEEtran ベース）  
+
+> 🔎 詳細な説明や使用方法は、各ディレクトリの README を参照してください。
   
 ---
 
