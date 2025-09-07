@@ -26,8 +26,9 @@ NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレー
 
 | ファイル名 | 説明 |
 |------------|------|
-| `NMOS_IdVd_018um_1v8.sp` | **NMOS Id–Vd テンプレート**（W=10µm / L=0.18µm, VDD=1.8V）<br>*NMOS Id–Vd template (W=10µm / L=0.18µm, VDD=1.8V)* |
-| `README.md` | **本ファイル**（使い方と概要）<br>*This file (overview and usage)* |
+| [`NMOS_IdVd_018um_1v8.sp`](./NMOS_IdVd_018um_1v8.sp) | **NMOS Id–Vd テンプレート**（W=10µm / L=0.18µm, VDD=1.8V）<br>*NMOS Id–Vd template (W=10µm / L=0.18µm, VDD=1.8V)* |
+| [`NMOS_IdVg_018um_1v8.sp`](./NMOS_IdVg_018um_1v8.sp) | **NMOS Id–Vg テンプレート**（W=10µm / L=0.18µm, VDD=1.8V）<br>*NMOS Id–Vg template (W=10µm / L=0.18µm, VDD=1.8V)* |
+| [`README.md`](./README.md) | **本ファイル**（使い方と概要）<br>*This file (overview and usage)* |
 
 ---
 
