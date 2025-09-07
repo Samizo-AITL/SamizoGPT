@@ -35,27 +35,28 @@ to support development, education, and AI-based control systems using **ChatGPT*
 
 ---
 
-## **📁 ディレクトリ構成 | Directory Structure**
+## 📁 ディレクトリ構成 | Directory Structure
 
 ```plaintext
 SamizoGPT/
-├── README.md                    ← プロジェクト概要（本ファイル）
-├── SamizoGPT-v1x/               ← ChatGPT活用マニュアル（プロンプト・設定・使用法）
-│   ├── prompt_templates.md
-│   ├── assistant_config.md
-│   └── usage_guide.md
-├── Project Design Hub/          ← 各プロジェクトの設計・分類・拡張構想
-│   ├── project_overview.md
-│   ├── directory_structure.md
-│   └── expansion_plan.md
-├── Edusemi-v4x/                 ← 半導体教材（Sky130/RTL-to-GDSII）
-├── EduController/               ← 制御理論＋AI制御教材
-├── AITL-H/                      ← FSM＋PID＋LLMによる知能制御アーキテクチャ
-├── gui-tools/                   ← プロンプトGUI選択ツール（構想中）
-├── api-scripts/                 ← ChatGPT API連携スクリプト
-├── template-builder/            ← 教材・ドキュメント自動整形支援ツール
-├── private/                     ← 非公開技術アーカイブ（Git除外対象）
-└── docs/                        ← GitHub Pages用（Webドキュメント）
+├── README.md                 ← プロジェクト概要（本ファイル）
+│
+├── SamizoGPT-v1x/            ← ChatGPT活用マニュアル（プロンプト・設定・使用法）
+├── Project Design Hub/       ← 各プロジェクトの設計・分類・拡張構想
+│
+├── Edusemi-v4x/              ← 半導体教材（Sky130/RTL-to-GDSII）
+├── EduController/            ← 制御理論＋AI制御教材
+├── AITL-H/                   ← FSM＋PID＋LLM知能制御アーキテクチャ
+│
+├── DeviceTemplates/          ← NMOS/PMOS Id–Vd, Id–Vg テンプレ
+├── InverterTemplates/        ← CMOSインバータVTC/過渡応答
+├── ControlTemplates/         ← FSM, Step Response, Bode Plot
+├── PaperTemplate/            ← LaTeX論文テンプレート
+│
+├── gui-tools/                ← プロンプトGUIツール（構想中）
+├── api-scripts/              ← ChatGPT API連携スクリプト
+├── template-builder/         ← 教材・ドキュメント整形ツール
+└── docs/                     ← GitHub Pages用（Webドキュメント）
 ```
 
 ---
