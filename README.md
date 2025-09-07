@@ -111,16 +111,16 @@ SamizoGPT には、**回路・制御・論文執筆**の基礎を体験できる
 
 📂 含まれるディレクトリ：
 
-- **DeviceTemplates/**  
+- [**DeviceTemplates/**](./DeviceTemplates)  
   NMOS/PMOS Id–Vd・Id–Vg 基本特性
 
-- **InverterTemplates/**  
+- [**InverterTemplates/**](./InverterTemplates)  
   CMOS インバータの入出力特性（VTC）、遅延応答
 
-- **ControlTemplates/**  
+- [**ControlTemplates/**](./ControlTemplates)  
   FSM（Moore/Mealy）、Step Response、Bode Plot
 
-- **PaperTemplate/**  
+- [**PaperTemplate/**](./PaperTemplate)  
   LaTeX 論文雛形（IEEEtran ベース）
   
 ---
