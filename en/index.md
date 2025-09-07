@@ -3,6 +3,8 @@ layout: default
 title: SamizoGPT/README_en.md
 ---
 
+---
+
 # **SamizoGPT**
 
 [![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -63,9 +65,9 @@ Prompts are stored in **`SamizoGPT-v1x/`** for classification, reuse, and system
 
 | File | Description |
 |------|-------------|
-| [`prompt_templates.md`](./SamizoGPT-v1x/prompt_templates.md) | **Categorized prompt collection** (explanation, design, education, control, etc.) |
-| [`assistant_config.md`](./SamizoGPT-v1x/assistant_config.md) | **Assistant configuration** (tone, role, settings for ChatGPT) |
-| [`usage_guide.md`](./SamizoGPT-v1x/usage_guide.md) | **Effective usage guide** and best practices for prompts |
+| [`prompt_templates.md`](../SamizoGPT-v1x/prompt_templates.md) | **Categorized prompt collection** (explanation, design, education, control, etc.) |
+| [`assistant_config.md`](../SamizoGPT-v1x/assistant_config.md) | **Assistant configuration** (tone, role, settings for ChatGPT) |
+| [`usage_guide.md`](../SamizoGPT-v1x/usage_guide.md) | **Effective usage guide** and best practices for prompts |
 
 ---
 
@@ -78,9 +80,9 @@ Design principles are consolidated in **`Project Design Hub/`**.
 
 | File | Description |
 |------|-------------|
-| [`project_overview.md`](./Project%20Design%20Hub/project_overview.md) | **Overall project structure and diagrams** |
-| [`directory_structure.md`](./Project%20Design%20Hub/directory_structure.md) | **Naming conventions, directory structure, file rules** |
-| [`expansion_plan.md`](./Project%20Design%20Hub/expansion_plan.md) | **Future expansion plan** (GUI, RTOS, LLM-based control, etc.) |
+| [`project_overview.md`](../Project%20Design%20Hub/project_overview.md) | **Overall project structure and diagrams** |
+| [`directory_structure.md`](../Project%20Design%20Hub/directory_structure.md) | **Naming conventions, directory structure, file rules** |
+| [`expansion_plan.md`](../Project%20Design%20Hub/expansion_plan.md) | **Future expansion plan** (GUI, RTOS, LLM-based control, etc.) |
 
 ---
 
@@ -92,9 +94,9 @@ This repository includes the following **educational and technical projects**:
 
 | Project | Description |
 |---------|-------------|
-| [**Edusemi-v4x/**](./Edusemi-v4x/) | **Semiconductor design training** (Sky130 / EDA practice) |
-| [**EduController/**](./EduController/) | **Control theory, state transition, and AI control training** |
-| [**AITL-H/**](./AITL-H/) | **Intelligent control architecture with FSM, PID, and LLM** |
+| [**Edusemi-v4x/**](../Edusemi-v4x/) | **Semiconductor design training** (Sky130 / EDA practice) |
+| [**EduController/**](../EduController/) | **Control theory, state transition, and AI control training** |
+| [**AITL-H/**](../AITL-H/) | **Intelligent control architecture with FSM, PID, and LLM** |
 | [**SoC_DesignKit_by_ChatGPT**](https://github.com/Samizo-AITL/EduController/tree/main/SoC_DesignKit_by_ChatGPT) | **HDL template training for FSM/PID/LLM control** (linked with EduController) |
 
 ### 🛠 Educational Templates
@@ -103,10 +105,10 @@ SamizoGPT also provides **minimal templates** for experiencing the basics of cir
 
 | Directory | Description |
 |-----------|-------------|
-| [**DeviceTemplates/**](./DeviceTemplates) | **NMOS/PMOS characteristic templates** (Id–Vd, Id–Vg) |
-| [**InverterTemplates/**](./InverterTemplates) | **CMOS inverter templates** (VTC, transient) |
-| [**ControlTemplates/**](./ControlTemplates) | **Control templates** (FSM, Step response, Bode plot) |
-| [**PaperTemplate/**](./PaperTemplate) | **LaTeX paper template** (based on IEEEtran) |
+| [**DeviceTemplates/**](../DeviceTemplates) | **NMOS/PMOS characteristic templates** (Id–Vd, Id–Vg) |
+| [**InverterTemplates/**](../InverterTemplates) | **CMOS inverter templates** (VTC, transient) |
+| [**ControlTemplates/**](../ControlTemplates) | **Control templates** (FSM, Step response, Bode plot) |
+| [**PaperTemplate/**](../PaperTemplate) | **LaTeX paper template** (based on IEEEtran) |
 
 > 🔎 See each directory’s README for detailed descriptions and usage instructions.  
 
@@ -128,7 +130,7 @@ The following features are already prototyped or partially implemented, and will
 
 | Item | Details |
 |------|----------|
-| **Name** | **Shinichi Samizo** (*三溝 真一*) |
+| **Name** | **Shinichi Samizo** |
 | **Education** | *M.S. in Electrical and Electronic Engineering, Shinshu University* |
 | **Career** | *Former Engineer at Seiko Epson Corporation (since 1997)* |
 | **Expertise** | *Semiconductor devices (logic, memory, high-voltage mixed integration)*<br>*Inkjet thin-film piezo actuators*<br>*Productization of PrecisionCore printheads, BOM management, ISO training* |
