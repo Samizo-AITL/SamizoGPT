@@ -69,7 +69,9 @@ ngspice NMOS_IdVd_018um_1v8.sp
 Vgs をパラメータとしたドレイン電流–電圧特性  
 *Drain current–voltage characteristics with Vgs as a parameter*  
 
-![NMOS_IdVd_example](./images/NMOS_IdVd_example.png)
+<p align="center">
+  <img src="./images/NMOS_IdVd_example.png" alt="NMOS Id–Vd example" width="80%">
+</p>
 
 ---
 
@@ -77,7 +79,9 @@ Vgs をパラメータとしたドレイン電流–電圧特性
 Vd を一定に固定したときのゲート電圧–ドレイン電流特性  
 *Gate voltage–drain current characteristics at constant Vd*  
 
-![NMOS_IdVg_example](./images/NMOS_IdVg_example.png)
+<p align="center">
+  <img src="./images/NMOS_IdVg_example.png" alt="NMOS Id–Vg example" width="80%">
+</p>
 
 ---
 
