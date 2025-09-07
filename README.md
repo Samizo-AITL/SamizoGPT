@@ -103,6 +103,28 @@ SamizoGPT/
 
 ---
 
+## 🎓 教育用テンプレート集 | Educational Templates
+
+SamizoGPT には、**回路・制御・論文執筆**の基礎を体験できる  
+最小限のテンプレート集も含まれます。  
+「まず動かして理解し、その先は自分で応用する」ことを目的としています。
+
+📂 含まれるディレクトリ：
+
+- **DeviceTemplates/**  
+  NMOS/PMOS Id–Vd・Id–Vg 基本特性
+
+- **InverterTemplates/**  
+  CMOS インバータの入出力特性（VTC）、遅延応答
+
+- **ControlTemplates/**  
+  FSM（Moore/Mealy）、Step Response、Bode Plot
+
+- **PaperTemplate/**  
+  LaTeX 論文雛形（IEEEtran ベース）
+  
+---
+
 ## **🚀 今後の展望 | Future Development**
 
 - **プロンプト＋GUI連携ツール**（CLI/GUIでプロンプトを自動生成）  
