@@ -33,24 +33,51 @@ NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレー
 
 ## ⚙️ 使い方 | Usage
 
-1. `.include` を自分の PDK モデルファイルに差し替え  
-   *Replace `.include` with your PDK model file*  
-2. 実行:  
-   ```bash
-   ngspice NMOS_IdVd_018um_1v8.sp
-   ```  
-   *Run the SPICE simulation*  
-3. 出力: `IdVd_Vgs*.csv` を可視化（Excel や Python）  
-   *Visualize the output `IdVd_Vgs*.csv` using Excel or Python*  
+### 1. 教育用（PDK不要） | For Education (No PDK required)
+本テンプレートは `.model` を使っており、PDK を持っていなくても動かせます。  
+*This template uses `.model`, so it runs without a PDK.*  
+
+例:  
+```spice
+.model NMOS NMOS (LEVEL=1 VTO=0.7 KP=50u LAMBDA=0.02)
+```
+
+### 2. 実プロセス利用（PDKあり） | For Real Process (With PDK)
+実際のプロセスを使う場合は `.include` を使い、PDK のモデルファイルを読み込みます。  
+*For real process models, replace with `.include` to load your PDK model file.*  
+
+例:  
+```spice
+.include sky130_fd_pr__nfet_01v8.model
+```
+
+### 3. 実行方法 | How to Run
+```bash
+ngspice NMOS_IdVd_018um_1v8.sp
+```
+*Run the SPICE simulation.*  
+
+### 4. 出力結果 | Output
+生成された `IdVd_Vgs*.csv` を Excel や Python で可視化します。  
+*Visualize the generated `IdVd_Vgs*.csv` using Excel or Python.*  
 
 ---
 
 ## 📊 出力例 | Example Result
 
-![NMOS_IdVd_example](./images/NMOS_IdVd_example.png)  
+### Id–Vd 特性 | Id–Vd Characteristics
+Vgs をパラメータとしたドレイン電流–電圧特性  
+*Drain current–voltage characteristics with Vgs as a parameter*  
 
-例: Id–Vd 曲線、各 Vgs に対するドレイン電流特性  
-*Example: Id–Vd curves showing drain current for different Vgs values*  
+![NMOS_IdVd_example](./images/NMOS_IdVd_example.png)
+
+---
+
+### Id–Vg 特性 | Id–Vg Characteristics
+Vd を一定に固定したときのゲート電圧–ドレイン電流特性  
+*Gate voltage–drain current characteristics at constant Vd*  
+
+![NMOS_IdVg_example](./images/NMOS_IdVg_example.png)
 
 ---
 
@@ -60,4 +87,4 @@ NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレー
 - W/L バリエーション（短チャネル効果などの確認）  
   *W/L variations (observe short-channel effects)*  
 - 高電圧プロセス対応の Id–Vd 特性  
-  *Id–Vd characteristics for high-voltage processes*  
+  *Id–Vd characteristics for high-voltage processes* 
