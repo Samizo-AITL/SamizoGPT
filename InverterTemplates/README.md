@@ -53,10 +53,33 @@ CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性
 
 ---
 
-## 📊 出力例 | Example Result
-- **VTC 特性**  
-  <p align="center"><img src="./images/Inverter_VTC_1v8.png" width="80%"></p>
+## 📊 出力例 | Example Results
 
+### CMOS Inverter — VTC
+- **VDD = 1.8 V**  
+  <p align="center"><img src="./images/Inv_VTC_1v8.png" width="80%"></p>
+
+- **VDD = 3.3 V**  
+  <p align="center"><img src="./images/Inv_VTC_3v3.png" width="80%"></p>
+
+---
+
+### CMOS Inverter — Transient
+- **VDD = 1.8 V**  
+  <p align="center"><img src="./images/Inv_TR_1v8.png" width="80%"></p>
+
+- **VDD = 3.3 V**  
+  <p align="center"><img src="./images/Inv_TR_3v3.png" width="80%"></p>
+
+---
+
+### バリエーション | Variations
+- **R_on の影響**（1×, 2×, 4×を比較）  
+  <p align="center"><img src="./images/Inv_TR_Ron.png" width="80%"></p>
+
+- **C_load の影響**（10 fF, 100 fF を比較）  
+  <p align="center"><img src="./images/Inv_TR_Cload.png" width="80%"></p>
+  
 ---
 
 ## 🚀 今後の拡張 | Future Extensions
