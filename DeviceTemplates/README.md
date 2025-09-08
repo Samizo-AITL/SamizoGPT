@@ -26,15 +26,15 @@ NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレー
 
 | ファイル名 | 説明 |
 |------------|------|
-| [`NMOS_VgId_1v8.sp`](./NMOS_VgId_1v8.sp) | **NMOS Vg–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=1.8 V） |
-| [`NMOS_VdId_1v8.sp`](./NMOS_VdId_1v8.sp) | **NMOS Vd–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=1.8 V） |
-| [`PMOS_VgId_1v8.sp`](./PMOS_VgId_1v8.sp) | **PMOS Vg–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=1.8 V） |
-| [`PMOS_VdId_1v8.sp`](./PMOS_VdId_1v8.sp) | **PMOS Vd–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=1.8 V） |
-| [`NMOS_VgId_3v3.sp`](./NMOS_VgId_3v3.sp) | **NMOS Vg–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=3.3 V） |
-| [`NMOS_VdId_3v3.sp`](./NMOS_VdId_3v3.sp) | **NMOS Vd–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=3.3 V） |
-| [`PMOS_VgId_3v3.sp`](./PMOS_VgId_3v3.sp) | **PMOS Vg–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=3.3 V） |
-| [`PMOS_VdId_3v3.sp`](./PMOS_VdId_3v3.sp) | **PMOS Vd–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=3.3 V） |
-| [`README.md`](./README.md) | **本ファイル**（使い方と概要） |
+| [`NMOS_VgId_1v8.sp`](./NMOS_VgId_1v8.sp) | **NMOS Vg–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=1.8 V）<br>*NMOS Vg–Id template (W=10 µm / L=0.18 µm, VDD=1.8 V)* |
+| [`NMOS_VdId_1v8.sp`](./NMOS_VdId_1v8.sp) | **NMOS Vd–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=1.8 V）<br>*NMOS Vd–Id template (W=10 µm / L=0.18 µm, VDD=1.8 V)* |
+| [`PMOS_VgId_1v8.sp`](./PMOS_VgId_1v8.sp) | **PMOS Vg–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=1.8 V）<br>*PMOS Vg–Id template (W=10 µm / L=0.18 µm, VDD=1.8 V)* |
+| [`PMOS_VdId_1v8.sp`](./PMOS_VdId_1v8.sp) | **PMOS Vd–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=1.8 V）<br>*PMOS Vd–Id template (W=10 µm / L=0.18 µm, VDD=1.8 V)* |
+| [`NMOS_VgId_3v3.sp`](./NMOS_VgId_3v3.sp) | **NMOS Vg–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=3.3 V）<br>*NMOS Vg–Id template (W=10 µm / L=0.18 µm, VDD=3.3 V)* |
+| [`NMOS_VdId_3v3.sp`](./NMOS_VdId_3v3.sp) | **NMOS Vd–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=3.3 V）<br>*NMOS Vd–Id template (W=10 µm / L=0.18 µm, VDD=3.3 V)* |
+| [`PMOS_VgId_3v3.sp`](./PMOS_VgId_3v3.sp) | **PMOS Vg–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=3.3 V）<br>*PMOS Vg–Id template (W=10 µm / L=0.18 µm, VDD=3.3 V)* |
+| [`PMOS_VdId_3v3.sp`](./PMOS_VdId_3v3.sp) | **PMOS Vd–Id テンプレート**（W=10 µm / L=0.18 µm, VDD=3.3 V）<br>*PMOS Vd–Id template (W=10 µm / L=0.18 µm, VDD=3.3 V)* |
+| [`README.md`](./README.md) | **本ファイル**（使い方と概要）<br>*This file (overview and usage)* |
 
 ---
 
