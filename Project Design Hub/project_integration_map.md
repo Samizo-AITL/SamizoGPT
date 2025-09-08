@@ -1,17 +1,26 @@
-# 🔗 Project Integration Map – Edusemi × EduController × AITL-H
-
-This document summarizes how the three major educational and technical projects by Shinichi Samizo are structurally linked.
+---
+layout: default
+title: Project Design Hub/project_overview.md
+---
 
 ---
 
-## 🗺️ Overview Diagram (Mermaid)
+# 🔗 プロジェクト統合マップ | Project Integration Map – Edusemi × EduController × AITL-H
+
+三溝真一による **3つの主要教育・技術プロジェクト**（Edusemi, EduController, AITL-H）の  
+**相互連携と役割分担** をまとめたドキュメントです。  
+*This document summarizes the structural links and roles of three major educational and technical projects by Shinichi Samizo.*
+
+---
+
+## 🗺️ 全体像（Mermaid 図）| Overview Diagram (Mermaid)
 
 ```mermaid
 graph TD
-  SamizoGPT[SamizoGPT – Prompt & Design Framework]
-  Edusemi[📘 Edusemi v4.x]
-  EduController[🎛️ EduController]
-  AITLH[🤖 AITL-H]
+  SamizoGPT[🗂 SamizoGPT – プロンプト & 設計フレームワーク]
+  Edusemi[📘 Edusemi v4.x – 半導体設計教材]
+  EduController[🎛️ EduController – 制御理論教材]
+  AITLH[🤖 AITL-H – 知能制御アーキテクチャ]
 
   SamizoGPT --> Edusemi
   SamizoGPT --> EduController
@@ -24,27 +33,38 @@ graph TD
 
 ---
 
-## 🔄 Project Roles & Connections
+## 🔄 プロジェクトの役割と接続 | Project Roles & Connections
 
-| Project | Role | Links |
-|---------|------|-------|
-| Edusemi | Semiconductor curriculum, Sky130 design, OpenLane | → EduController (SoC control logic), → AITL-H (FSM×PID×LLM implementation) |
-| EduController | Control theory + AI, Python/ROS tools | → AITL-H (LLM-integrated control logic) |
-| AITL-H | Hybrid architecture for intelligent control (PoC-based) | ← Based on theories from both Edusemi and EduController |
-
----
-
-## 🔁 Example Learning Pathways
-
-### 👨‍🎓 Engineering Student
-1. Start with **Edusemi基礎編** to learn device/circuit/process
-2. Move to **EduController Part 1–5** to study control theory
-3. Apply LLM-based reasoning via **AITL-H** using Part 9 in EduController
-4. Build a PoC using FSM×PID×LLM and test on GitHub PoC
+| **プロジェクト / Project** | **役割 / Role** | **接続 / Links** |
+|-----------------------------|-----------------|------------------|
+| 📘 **Edusemi** | 半導体カリキュラム、Sky130設計、OpenLane | → EduController (**SoC 制御ロジック**)<br>→ AITL-H (**FSM×PID×LLM 実装**) |
+| 🎛️ **EduController** | 制御理論＋AI、Python/ROS ツール | → AITL-H (**LLM 統合制御ロジック**) |
+| 🤖 **AITL-H** | 知能制御ハイブリッドアーキテクチャ（PoC ベース） | ← Edusemi と EduController 両方の理論に基づく |
 
 ---
 
-## 📘 Related Documents
-- [Edusemi README](../Edusemi-v4x/README.md)
-- [EduController README](../EduController/README.md)
-- [AITL-H README](../AITL-H/README.md)
+## 🔁 学習パスの例 | Example Learning Pathways
+
+### 👨‍🎓 工学系学生 | Engineering Student
+1. **Edusemi 基礎編** でデバイス／回路／プロセスを学習  
+   *Start with **Edusemi Basics** to learn devices, circuits, and processes.*  
+2. **EduController Part 1–5** で制御理論を習得  
+   *Move to **EduController Part 1–5** to study control theory.*  
+3. **AITL-H** を通じて LLM を利用した推論を応用  
+   *Apply LLM-based reasoning via **AITL-H**.*  
+4. FSM×PID×LLM を組み合わせた PoC を構築し、GitHub PoC 上で検証  
+   *Build a PoC using FSM×PID×LLM and test it on GitHub PoC.*  
+
+---
+
+## 📘 関連ドキュメント | Related Documents
+- [📘 Edusemi README](../Edusemi-v4x/README.md)  
+- [🎛️ EduController README](../EduController/README.md)  
+- [🤖 AITL-H README](../AITL-H/README.md)  
+
+---
+
+## ✍ 管理者 | Maintainer
+**三溝 真一 / Samizo-AITL**  
+- Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)  
