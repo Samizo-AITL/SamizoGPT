@@ -69,3 +69,14 @@ pdflatex main.tex
 ## 📊 出力例 | Example Output
 - コンパイル後に [`main.pdf`](./main.pdf) が生成され、IEEEtran スタイルの論文 PDF を確認できます。  
   *Compile result: [`main.pdf`](./main.pdf) shows IEEEtran styled paper.*
+
+---
+
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | **三溝 真一**（Shinichi Samizo） |
+| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
+| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../#-ライセンス--license) <br> 再配布・改変自由（教育目的） / *Free for educational use, redistribution, and modification* <br> 商用利用は別途許可が必要 / *Commercial use requires separate permission* |
+
