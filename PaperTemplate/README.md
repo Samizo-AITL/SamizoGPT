@@ -3,8 +3,6 @@ layout: default
 title: PaperTemplate/README.md
 ---
 
----
-
 # 📄 PaperTemplate (LaTeX)
 
 IEEEtran ベースの **最小論文テンプレート**  
@@ -24,10 +22,10 @@ IEEEtran ベースの **最小論文テンプレート**
 
 | ファイル | 説明 |
 |---|---|
-| `main.tex`  | 本文のメインソース<br>*Main LaTeX source file* |
-| `refs.bib`  | 参考文献（BibTeX 形式）<br>*Bibliography file (BibTeX)* |
-| `Makefile`  | ビルド用（`pdflatex → bibtex → pdflatex ×2`）<br>*Makefile for automated build* |
-| `README.md` | 本ファイル（使い方と概要）<br>*This file (overview and usage)* |
+| [`main.tex`](./main.tex)   | 本文のメインソース<br>*Main LaTeX source file* |
+| [`refs.bib`](./refs.bib)   | 参考文献（BibTeX 形式）<br>*Bibliography file (BibTeX)* |
+| [`Makefile`](./Makefile)   | ビルド用（`pdflatex → bibtex → pdflatex ×2`）<br>*Makefile for automated build* |
+| [`README.md`](./README.md) | 本ファイル（使い方と概要）<br>*This file (overview and usage)* |
 
 ---
 
@@ -55,9 +53,9 @@ pdflatex main.tex
 ---
 
 ## 📝 カスタマイズ | Customization
-- `main.tex` を編集して本文を作成  
-- `refs.bib` に BibTeX 形式で文献を追加  
-- IEEEtran のオプションで **conference/journal** スタイルを切替可能
+- [`main.tex`](./main.tex) を編集して本文を作成  
+- [`refs.bib`](./refs.bib) に BibTeX 形式で文献を追加  
+- IEEEtran のオプションで **conference/journal** スタイルを切替可能  
 
 ```latex
 \documentclass[conference]{IEEEtran}
@@ -67,5 +65,5 @@ pdflatex main.tex
 ---
 
 ## 📊 出力例 | Example Output
-- コンパイル後に `main.pdf` が生成され、IEEEtran スタイルの論文 PDF を確認できます。  
-  *Compile result: `main.pdf` shows IEEEtran styled paper.*
+- コンパイル後に [`main.pdf`](./main.pdf) が生成され、IEEEtran スタイルの論文 PDF を確認できます。  
+  *Compile result: [`main.pdf`](./main.pdf) shows IEEEtran styled paper.*
