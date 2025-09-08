@@ -1,6 +1,6 @@
 ---
 layout: default
-title: InverterTemplates/README.md
+title: InverterTemplates/index.md
 ---
 
 ---
