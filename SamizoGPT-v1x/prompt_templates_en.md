@@ -177,9 +177,3 @@ Design a task database structure for the following educational development proje
 - Prompt generation from ChatGPT conversation logs
 - Glossary-aware prompt templates (Edusemi-linked)
 
----
-
-## ✍ Author: Shinichi Samizo / Samizo-AITL
-
-Email: shin3t72@gmail.com  
-GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
