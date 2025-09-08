@@ -7,16 +7,19 @@ title: InverterTemplates/README.md
 
 # 🔄 InverterTemplates
 
-CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性）** を観察する最小 SPICE デッキ  
-*Minimal SPICE deck to observe CMOS inverter voltage transfer characteristics (VTC).*
+CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性）** と  
+**トランジェント応答 (Transient Response)** を観察する最小 SPICE デッキ集  
+*Minimal SPICE decks to observe CMOS inverter voltage transfer characteristics (VTC) and transient response.*
 
 ---
 
 ## 🎯 目的 | Purpose
-- CMOS インバータの **入出力電圧特性 (VTC)** を理解する  
+- CMOS インバータの **入出力特性 (VTC)** を理解する  
   *Understand CMOS inverter voltage transfer characteristics (VTC)*  
-- スレッショルド電圧 (VM) やノイズマージンを観察する  
-  *Observe threshold voltage (VM) and noise margins*  
+- 遅延や立ち上がり/立ち下がり時間など **動的応答 (Transient)** を観察する  
+  *Observe dynamic responses such as delay and rise/fall times*  
+- スレッショルド電圧 (VM) やノイズマージンを評価する  
+  *Evaluate threshold voltage (VM) and noise margins*  
 - SPICE シミュレーションから CSV 出力 → 可視化（Excel/Python）  
   *Export CSV from SPICE simulation and visualize with Excel/Python*  
 
@@ -66,7 +69,6 @@ CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性
 
 ## 📊 出力例 | Example Results
 
-
 ### CMOS Inverter — Transient
 - **VDD = 1.8 V**  
   <p align="center"><img src="./images/Inv_TR_1v8.png" width="80%"></p>
@@ -88,7 +90,7 @@ CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性
 ## 🚀 今後の拡張 | Future Extensions
 - 3.3V, 5V 版インバータテンプレート  
   *Inverter templates for 3.3V and 5V supplies*  
-- 過渡応答（トランジェント解析）例  
-  *Transient response examples*  
+- 過渡応答（トランジェント解析）例の追加  
+  *More transient response examples*  
 - ノイズマージン自動算出スクリプト  
   *Automation scripts to compute noise margins*
