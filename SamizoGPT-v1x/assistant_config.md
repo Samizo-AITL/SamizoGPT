@@ -101,11 +101,3 @@ SamizoGPTアシスタントの **応答スタイル・役割・口調・原則**
   *This file is stored in `SamizoGPT-v1x/assistant_config.md`*  
 - プロジェクトごとに分岐可能（例：制御特化版など）  
   *May be forked per project (e.g., control-specialized version)*  
-
----
-
-## ✍ 作者 | *Author*
-
-**三溝 真一 / Shinichi Samizo (Samizo-AITL)**  
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 💻 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
