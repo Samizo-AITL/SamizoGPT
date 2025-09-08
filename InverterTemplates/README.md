@@ -26,6 +26,9 @@ CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性
 | ファイル名 | 説明 |
 |------------|------|
 | [`Inverter_VTC_1v8.sp`](./Inverter_VTC_1v8.sp) | **CMOS インバータ VTC テンプレート**（VDD=1.8V）<br>*CMOS inverter VTC template (VDD=1.8V)* |
+| [`Inverter_VTC_3v3.sp`](./Inverter_VTC_3v3.sp) | **CMOS インバータ VTC テンプレート**（VDD=3.3V）<br>*CMOS inverter VTC template (VDD=3.3V)* |
+| [`Inverter_TR_1v8.sp`](./Inverter_TR_1v8.sp)   | **CMOS インバータ トランジェント テンプレート**（VDD=1.8V）<br>*CMOS inverter transient template (VDD=1.8V)* |
+| [`Inverter_TR_3v3.sp`](./Inverter_TR_3v3.sp)   | **CMOS インバータ トランジェント テンプレート**（VDD=3.3V）<br>*CMOS inverter transient template (VDD=3.3V)* |
 | [`README.md`](./README.md) | **本ファイル**（使い方と概要）<br>*This file (overview and usage)* |
 
 ---
@@ -44,12 +47,20 @@ CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性
 
 3. **実行例**:  
    ```bash
-   ngspice Inverter_VTC_1v8.sp
+   ngspice Inverter_TR_1v8.sp
    ```  
    *Run the simulation with ngspice.*  
 
 4. 出力された CSV を Excel/Python で可視化  
    *Visualize the generated CSV using Excel or Python.*
+
+---
+
+## 📝 補足 | Notes
+- VTC (`Inverter_VTC_xx.sp`) → **静特性解析**（入力 vs 出力, ノイズマージン評価）  
+  *VTC for static characteristics and noise margin evaluation.*  
+- Transient (`Inverter_TR_xx.sp`) → **動的応答解析**（遅延・立ち上がり/立ち下がり時間）  
+  *Transient for dynamic response (delay, rise/fall time).*
 
 ---
 
