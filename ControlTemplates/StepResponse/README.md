@@ -42,11 +42,13 @@ python first_order.py
 
 ---
 
-## 📊 出力 | Output
-- `step_response.csv` → **数値データ**（time, response）  
-  *Numerical data (time, response)*  
-- `step_response.png` → **応答グラフ**  
-  *Step response plot*  
+## 📊 出力例 | Example Results
+
+- **CSV 出力例**  
+  [`step_response.csv`](./step_response.csv)
+
+- **グラフ出力例**  
+  <p align="center"><img src="./step_response.png" width="80%"></p>
 
 ---
 
