@@ -3,6 +3,8 @@ layout: default
 title: PaperTemplate/README.md
 ---
 
+---
+
 # 📄 PaperTemplate (LaTeX)
 
 IEEEtran ベースの **最小論文テンプレート**  
