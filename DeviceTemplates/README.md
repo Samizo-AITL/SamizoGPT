@@ -40,19 +40,67 @@ NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレー
 
 ## ⚙️ 使い方 | Usage
 
-1. `.model` を使えば PDK 不要で動作（教育用）  
-   *Use `.model` for education without requiring a PDK*  
+1. **教育用の利用**（PDK不要）  
+   `.model` を使ったシンプルなデバイスモデルを定義しているため、PDK を持っていなくても動作します。  
+   *Educational use with `.model`, no PDK required.*
 
-2. 実プロセス利用時は `.include` で PDK モデルを読み込み  
-   *For real processes, use `.include` to load your PDK model*  
+2. **実プロセスでの利用**  
+   実際のプロセスを使う場合は `.include` を使って PDK モデルを読み込みます。  
+   *For real processes, replace `.model` with `.include` to load your PDK models.*  
 
-3. 実行例:  
-   ```bash
-   ngspice NMOS_IdVg_018um_1v8.sp
+   ```spice
+   .include sky130_fd_pr__nfet_01v8.model
    ```
 
-4. 出力 CSV を Excel や Python で可視化  
-   *Visualize the output CSV with Excel or Python*  
+3. **実行例**  
+   ngspice でシミュレーションを実行できます。  
+   *Run the simulation with ngspice:*  
+   ```bash
+   ngspice NMOS_VgId_1v8.sp
+   ```
+
+4. **出力の可視化**  
+   CSV ファイルが生成されるので、Excel や Python で簡単にグラフ化できます。  
+   *Generated CSV can be visualized with Excel or Python.*
+
+---
+
+## 📝 ChatGPTとの併用 | With ChatGPT
+
+`.sp` ファイルを ChatGPT に貼り付けると、以下のことが可能です:  
+*If you paste the `.sp` file into ChatGPT, you can:*
+
+- **行ごとの意味を解説**  
+  *Get explanations line by line (e.g., what `.model` or `.control` means).*  
+- **カスタマイズ提案**  
+  *Ask how to modify parameters such as W/L, VDD, or sweep steps.*  
+- **追加実験例を生成**  
+  *Generate variants (e.g., other voltages, multi-finger devices, PMOS versions).*  
+
+---
+
+## 🔧 カスタマイズ例 | Customization Examples
+
+- **しきい値電圧 (VTO) の変更**  
+  ```spice
+  .model NMOS NMOS (LEVEL=1 VTO=0.5 KP=50u LAMBDA=0)
+  ```
+  → より低電圧でトランジスタがオンする動作を確認できます。  
+  *Check behavior of a lower-threshold transistor.*
+
+- **チャネル長 (L) の変更**  
+  ```spice
+  M1 D G 0 0 NMOS W=10u L=0.35u
+  ```
+  → 長チャネル効果を観察できます。  
+  *Observe long-channel device behavior.*
+
+- **電源電圧 (VDD) の変更**  
+  ```spice
+  VDD D 0 5.0
+  ```
+  → 高電圧動作時の Id–Vg, Id–Vd を確認できます。  
+  *Check transistor characteristics at higher supply voltages.*
 
 ---
 
