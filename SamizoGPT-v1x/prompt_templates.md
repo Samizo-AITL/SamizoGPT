@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SamizoGPT-v1x/prompt_templates.md
+title: SamizoGPT-v1x/prompt_templates.md 
 ---
 
 ---
