@@ -226,11 +226,3 @@ PID制御とMPC制御の違いを、次の観点で比較してください：�
   *GUI-based prompt list generation*  
 - **用語集連動型プロンプト（Edusemi連携）**  
   *Glossary-linked prompts (Edusemi integration)*  
-
----
-
-## ✍ 作者 | *Author*
-
-**三溝 真一 / Shinichi Samizo (Samizo-AITL)**  
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 💻 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
