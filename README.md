@@ -91,9 +91,9 @@ SamizoGPT/
 
 | ファイル名 | 内容 |
 |------------|------|
-| [`project_overview.md`](./Project%20Design%20Hub/project_overview.md) | **プロジェクト全体の構成と関係図**<br>*Overall project structure and relationship diagrams* |
 | [`directory_structure.md`](./Project%20Design%20Hub/directory_structure.md) | **命名規則・ディレクトリ構成・ファイルルール**<br>*Naming conventions, directory structure, and file rules* |
 | [`expansion_plan.md`](./Project%20Design%20Hub/expansion_plan.md) | **今後の拡張計画（GUI・RTOS・LLM制御など）**<br>*Future expansion plan (GUI, RTOS, LLM-based control, etc.)* |
+| [`project_integration_map.md`](./Project%20Design%20Hub/project_integration_map.md) | **プロジェクト間の統合マップ**<br>*Integration map across projects* |
 
 ---
 
