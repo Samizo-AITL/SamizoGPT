@@ -120,11 +120,3 @@ SamizoGPTのプロンプトを効果的に活用するための **運用ガイ�
   *Prompt database with tagging and full-text search*  
 - ChatGPT API用プロンプト→スクリプト変換機能  
   *Conversion of prompts to scripts for ChatGPT API*  
-
----
-
-## ✍ 作者 | *Author*
-
-**三溝 真一 / Shinichi Samizo (Samizo-AITL)**  
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 💻 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
