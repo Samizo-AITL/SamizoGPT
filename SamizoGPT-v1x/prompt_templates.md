@@ -1,19 +1,29 @@
+---
+layout: default
+title: SamizoGPT-v1x/prompt_templates.md
+---
+
+---
+
 # 📘 prompt_templates.md
 
-ChatGPTを活用するためのプロンプトテンプレート集  
-Prompt templates for effective interactions with ChatGPT
+ChatGPTを活用するための **プロンプトテンプレート集**  
+*Prompt templates for effective interactions with ChatGPT*
 
 ---
 
-## ✅ 構成方針 | Structure Policy
+## 🎯 構成方針 | *Structure Policy*
 
-- 使用目的ごとに分類（説明、設計、制御、教育、分析など）
-- 再利用しやすいように構文ルールと変数形式を明示
-- 各テンプレートは簡易説明＋プレースホルダ付き
+- **使用目的ごとに分類**（説明、設計、制御、教育、分析など）  
+  *Classified by purpose (explanation, design, control, education, analysis, etc.)*  
+- **再利用性の高い構文ルールと変数形式を明示**  
+  *Explicit syntax rules and placeholder variables for reusability*  
+- **各テンプレートは簡易説明＋プレースホルダ付き**  
+  *Each template includes a short description and placeholders*
 
 ---
 
-## 📂 カテゴリ一覧 | Categories
+## 📂 カテゴリ一覧 | *Categories*
 
 - [1. 説明・要約系](#1-説明要約系)
 - [2. 設計・分析系](#2-設計分析系)
@@ -25,18 +35,16 @@ Prompt templates for effective interactions with ChatGPT
 
 ---
 
-## 1. 説明・要約系
+## 1. 説明・要約系 | *Explanation & Summarization*
 
-### 🔹 テンプレート01：技術用語の説明
-
+### 🔹 テンプレート01：技術用語の説明 | *Explain a technical term*
 ```plaintext
 以下の技術用語について、初心者向けに簡潔に説明してください：
 
 {技術用語}
 ```
 
-### 🔹 テンプレート02：技術文書の要約
-
+### 🔹 テンプレート02：技術文書の要約 | *Summarize a technical document*
 ```plaintext
 以下の技術文書を、3行で簡潔に要約してください：
 
@@ -45,18 +53,16 @@ Prompt templates for effective interactions with ChatGPT
 
 ---
 
-## 2. 設計・分析系
+## 2. 設計・分析系 | *Design & Analysis*
 
-### 🔹 テンプレート03：システム構成の提案
-
+### 🔹 テンプレート03：システム構成の提案 | *System architecture proposal*
 ```plaintext
 以下の要件に基づいて、構成ブロック図の概要とその構成要素を提案してください：
 
 {システム要件の説明}
 ```
 
-### 🔹 テンプレート04：利点と課題の整理
-
+### 🔹 テンプレート04：利点と課題の整理 | *List pros and cons*
 ```plaintext
 次の技術案について、利点・課題・考慮点をそれぞれ箇条書きでまとめてください：
 
@@ -65,18 +71,16 @@ Prompt templates for effective interactions with ChatGPT
 
 ---
 
-## 3. 制御・状態遷移系
+## 3. 制御・状態遷移系 | *Control & State Transition*
 
-### 🔹 テンプレート05：状態遷移の記述支援
-
+### 🔹 テンプレート05：状態遷移の記述支援 | *Assist in describing state transitions*
 ```plaintext
 以下の動作仕様に基づいて、状態遷移図または状態遷移表を構成するための要素を整理してください：
 
 {制御仕様やフローの記述}
 ```
 
-### 🔹 テンプレート06：制御アルゴリズムの比較
-
+### 🔹 テンプレート06：制御アルゴリズムの比較 | *Compare control algorithms*
 ```plaintext
 PID制御とMPC制御の違いを、次の観点で比較してください：制御性能、実装容易性、用途
 
@@ -88,18 +92,16 @@ PID制御とMPC制御の違いを、次の観点で比較してください：�
 
 ---
 
-## 4. 教材・チュートリアル作成
+## 4. 教材・チュートリアル作成 | *Teaching & Tutorial Creation*
 
-### 🔹 テンプレート07：学習教材の構成案作成
-
+### 🔹 テンプレート07：学習教材の構成案作成 | *Propose a learning material structure*
 ```plaintext
 以下のテーマに基づいて、技術学習教材（初学者向け）の構成案を作成してください：
 
 {テーマ（例：インピーダンス、状態空間表現など）}
 ```
 
-### 🔹 テンプレート10：教材構成テンプレート（章構成・展開順）
-
+### 🔹 テンプレート10：教材構成テンプレート | *Template for chapter structure*
 ```plaintext
 あなたは教材構成設計の専門家です。
 
@@ -120,8 +122,7 @@ PID制御とMPC制御の違いを、次の観点で比較してください：�
 - 展開順の意図と狙い（例：P→MOS→CMOS）
 ```
 
-### 🔹 テンプレート11：教材パッケージ設計テンプレート（複数教材の統合）
-
+### 🔹 テンプレート11：教材パッケージ設計 | *Educational package design*
 ```plaintext
 あなたは教育パッケージ設計の専門家です。
 
@@ -146,10 +147,9 @@ PID制御とMPC制御の違いを、次の観点で比較してください：�
 
 ---
 
-## 5. 評価・レビュー支援
+## 5. 評価・レビュー支援 | *Evaluation & Review*
 
-### 🔹 テンプレート08：技術文書の改善案提示
-
+### 🔹 テンプレート08：技術文書の改善案 | *Improve technical writing*
 ```plaintext
 以下の文章を、より明確かつ論理的に改善してください：
 
@@ -158,10 +158,9 @@ PID制御とMPC制御の違いを、次の観点で比較してください：�
 
 ---
 
-## 6. 対話スタイル設定
+## 6. 対話スタイル設定 | *Dialogue Style Settings*
 
-### 🔹 テンプレート09：アシスタント設定指定
-
+### 🔹 テンプレート09：アシスタント設定指定 | *Set assistant behavior*
 ```plaintext
 あなたは技術アシスタントです。
 常に：
@@ -173,10 +172,9 @@ PID制御とMPC制御の違いを、次の観点で比較してください：�
 
 ---
 
-## 7. プロジェクト進行・タスク管理
+## 7. プロジェクト進行・タスク管理 | *Project Management*
 
-### 🔹 テンプレート12：GitHub Issue分解テンプレート
-
+### 🔹 テンプレート12：GitHub Issue分解 | *Decompose into GitHub Issues*
 ```plaintext
 あなたは技術プロジェクトマネージャーです。
 
@@ -197,8 +195,7 @@ PID制御とMPC制御の違いを、次の観点で比較してください：�
 - ラベル（優先度、カテゴリ）
 ```
 
-### 🔹 テンプレート13：Notionタスク管理テンプレート
-
+### 🔹 テンプレート13：Notionタスク管理 | *Notion task management*
 ```plaintext
 あなたはNotionを使った教材開発プロジェクト管理者です。
 
@@ -221,15 +218,19 @@ PID制御とMPC制御の違いを、次の観点で比較してください：�
 
 ---
 
-## 🔄 今後の拡張案（追記予定）
+## 🔄 今後の拡張案 | *Future Extensions*
 
-- チャット履歴からのプロンプト自動抽出
-- GUIで選べるプロンプトリスト生成
-- 用語集連動型プロンプト（Edusemi連携）
+- **チャット履歴からのプロンプト自動抽出**  
+  *Automatic prompt extraction from chat history*  
+- **GUIで選べるプロンプトリスト生成**  
+  *GUI-based prompt list generation*  
+- **用語集連動型プロンプト（Edusemi連携）**  
+  *Glossary-linked prompts (Edusemi integration)*  
 
 ---
 
-## ✍ 作者：三溝 真一 / Samizo-AITL
+## ✍ 作者 | *Author*
 
-Email: shin3t72@gmail.com  
-GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
+**三溝 真一 / Shinichi Samizo (Samizo-AITL)**  
+- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 💻 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
