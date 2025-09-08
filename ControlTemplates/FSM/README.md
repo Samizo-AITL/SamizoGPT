@@ -3,6 +3,8 @@ layout: default
 title: ControlTemplates/FSM/README.md
 ---
 
+---
+
 # 🔁 FSM Templates (教育用)
 
 Moore/Mealy の **最小 Verilog FSM テンプレート集**  
