@@ -3,6 +3,8 @@ layout: default
 title: ControlTemplates/StepResponse
 ---
 
+---
+
 # 📈 StepResponse
 
 一次遅れ系のステップ応答を **データ出力 + グラフ描画** できるテンプレート  
