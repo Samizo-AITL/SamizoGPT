@@ -26,12 +26,13 @@ CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性
 ---
 
 ## 📂 含まれるファイル | Contents
+
 | ファイル名 | 説明 |
 |------------|------|
-| [`Inverter_VTC_1v8.sp`](./Inverter_VTC_1v8.sp) | **CMOS インバータ VTC テンプレート**（VDD=1.8V）<br>*CMOS inverter VTC template (VDD=1.8V)* |
-| [`Inverter_VTC_3v3.sp`](./Inverter_VTC_3v3.sp) | **CMOS インバータ VTC テンプレート**（VDD=3.3V）<br>*CMOS inverter VTC template (VDD=3.3V)* |
-| [`Inverter_TR_1v8.sp`](./Inverter_TR_1v8.sp)   | **CMOS インバータ トランジェント テンプレート**（VDD=1.8V）<br>*CMOS inverter transient template (VDD=1.8V)* |
-| [`Inverter_TR_3v3.sp`](./Inverter_TR_3v3.sp)   | **CMOS インバータ トランジェント テンプレート**（VDD=3.3V）<br>*CMOS inverter transient template (VDD=3.3V)* |
+| [`Inverter_VTC_1v8.sp`](./Inverter_VTC_1v8.sp) | **CMOS インバータ VTC テンプレート** (VDD=1.8V)<br>*CMOS inverter VTC template (VDD=1.8V)* |
+| [`Inverter_VTC_3v3.sp`](./Inverter_VTC_3v3.sp) | **CMOS インバータ VTC テンプレート** (VDD=3.3V)<br>*CMOS inverter VTC template (VDD=3.3V)* |
+| [`Inverter_TR_1v8.sp`](./Inverter_TR_1v8.sp) | **CMOS インバータ トランジェント テンプレート** (VDD=1.8V)<br>*CMOS inverter transient template (VDD=1.8V)* |
+| [`Inverter_TR_3v3.sp`](./Inverter_TR_3v3.sp) | **CMOS インバータ トランジェント テンプレート** (VDD=3.3V)<br>*CMOS inverter transient template (VDD=3.3V)* |
 | [`README.md`](./README.md) | **本ファイル**（使い方と概要）<br>*This file (overview and usage)* |
 
 ---
