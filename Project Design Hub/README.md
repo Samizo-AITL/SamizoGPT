@@ -26,7 +26,6 @@ title: Project Design Hub
 
 | ファイル名 | 内容 |
 |------------|------|
-| [`project_overview.md`](./project_overview.md) | プロジェクト群の全体構成と相互関係マップ<br>*Overview of project structure and interconnections* |
 | [`directory_structure.md`](./directory_structure.md) | 命名ルール／階層構成／ファイル設計の原則<br>*Naming rules, directory hierarchy, and file design principles* |
 | [`expansion_plan.md`](./expansion_plan.md) | GUI対応・教材展開・RTOS連携などの将来構想<br>*Future plans: GUI integration, educational expansion, RTOS linkage* |
 | [`project_integration_map.md`](./project_integration_map.md) | 各プロジェクト間の統合マップ<br>*Integration map across projects* |
