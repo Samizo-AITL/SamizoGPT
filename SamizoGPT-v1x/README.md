@@ -70,8 +70,10 @@ LLMを **プロジェクト設計** や **教育** に統合するための基�
 
 ---
 
-## ✍ 管理者 | *Maintainer*
+## 👤 **著者・ライセンス / Author & License**
 
-**三溝 真一 / Shinichi Samizo (Samizo-AITL)**  
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 💻 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | **三溝 真一**（Shinichi Samizo） |
+| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
+| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../#-ライセンス--license) <br> 再配布・改変自由（教育目的） / *Free for educational use, redistribution, and modification* <br> 商用利用は別途許可が必要 / *Commercial use requires separate permission* |
