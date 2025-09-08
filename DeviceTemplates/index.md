@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DeviceTemplates/README.md
+title: DeviceTemplates/index.md
 ---
 
 ---
