@@ -55,14 +55,6 @@ CMOS インバータの **VTC（Voltage Transfer Characteristic, 入出力特性
 
 ## 📊 出力例 | Example Results
 
-### CMOS Inverter — VTC
-- **VDD = 1.8 V**  
-  <p align="center"><img src="./images/Inv_VTC_1v8.png" width="80%"></p>
-
-- **VDD = 3.3 V**  
-  <p align="center"><img src="./images/Inv_VTC_3v3.png" width="80%"></p>
-
----
 
 ### CMOS Inverter — Transient
 - **VDD = 1.8 V**  
