@@ -61,12 +61,16 @@ NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレー
 ### NMOS @ 1.8 V
 - **Vg–Id 特性**  
   <p align="center"><img src="./images/NMOS_VgId_1v8.png" width="80%"></p>
+
 - **Vd–Id 特性**  
   <p align="center"><img src="./images/NMOS_VdId_1v8.png" width="80%"></p>
+
+---
 
 ### NMOS @ 3.3 V
 - **Vg–Id 特性**  
   <p align="center"><img src="./images/NMOS_VgId_3v3.png" width="80%"></p>
+
 - **Vd–Id 特性**  
   <p align="center"><img src="./images/NMOS_VdId_3v3.png" width="80%"></p>
 
@@ -75,15 +79,19 @@ NMOS/PMOS の基本特性を観察するための **最小 SPICE テンプレー
 ### PMOS @ 1.8 V
 - **Vg–Id 特性**  
   <p align="center"><img src="./images/PMOS_VgId_1v8.png" width="80%"></p>
-- **Vd–Id 特性**（横軸は 0 → −VDD）  
+
+- **Vd–Id 特性**  
   <p align="center"><img src="./images/PMOS_VdId_1v8.png" width="80%"></p>
+
+---
 
 ### PMOS @ 3.3 V
 - **Vg–Id 特性**  
   <p align="center"><img src="./images/PMOS_VgId_3v3.png" width="80%"></p>
-- **Vd–Id 特性**（横軸は 0 → −VDD）  
-  <p align="center"><img src="./images/PMOS_VdId_3v3.png" width="80%"></p>
 
+- **Vd–Id 特性**  
+  <p align="center"><img src="./images/PMOS_VdId_3v3.png" width="80%"></p>
+  
 ---
 
 ## 🚀 今後の拡張 | Future Extensions
