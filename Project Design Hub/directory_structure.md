@@ -78,10 +78,3 @@ SamizoGPT/
   *Concept for `template-builder/` to automate PDF generation and template deployment.*  
 - 各構成変更は必ず **`Project Design Hub` 内ドキュメントに反映**  
   *All structural changes must be reflected in `Project Design Hub` docs.*  
-
----
-
-## ✍ 管理者 | Maintainer
-**三溝 真一 / Samizo-AITL**  
-- Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
