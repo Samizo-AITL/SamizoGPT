@@ -76,10 +76,3 @@ SamizoGPT プロジェクトの **拡張構想と将来計画**
   *Public template set as technology portfolio (Markdown → HTML).*  
 - **Samizo Lab 構想**：LLM × テクノロジー教育研究サイト  
   *Samizo Lab: LLM-powered site for technology education & research.*
-
----
-
-## ✍ 管理者 | Maintainer
-**三溝 真一 / Samizo-AITL**  
-- Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
