@@ -73,11 +73,3 @@ SamizoGPT/
   *Publish manuals via GitHub Pages*  
 - **制御用RTOS／シミュレーション環境との連動（AITL-H応用）**  
   *Integration with RTOS/simulation environments (AITL-H application)*  
-
----
-
-## ✍ 作成者 | *Author*
-
-**三溝 真一 / Shinichi Samizo (Samizo-AITL)**  
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 💻 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
