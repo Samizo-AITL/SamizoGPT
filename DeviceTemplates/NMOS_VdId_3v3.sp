@@ -1,4 +1,4 @@
-* ===============================================================
+* =============================================================== 
 * DeviceTemplates — Educational MOS SPICE Template
 * File generated: 2025-09-08 (UTC)
 * Purpose     : Quick visualization of Vg–Id / Vd–Id characteristics
