@@ -1,45 +1,62 @@
+---
+layout: default
+title: SamizoGPT-v1x/usage_guide.md
+---
+
+---
+
 # 🛠 usage_guide.md
 
-SamizoGPTのプロンプトを効果的に活用するための運用ガイド  
-A practical guide for using prompt templates effectively with SamizoGPT
+SamizoGPTのプロンプトを効果的に活用するための **運用ガイド**  
+*A practical guide for using prompt templates effectively with SamizoGPT*
 
 ---
 
-## ✅ 活用の目的 | Purpose of Usage
+## ✅ 活用の目的 | *Purpose of Usage*
 
-- ChatGPTを**技術アシスタントとして最大限に活用**する
-- プロンプトテンプレートの**正しい使い方とカスタマイズ方法**を習得する
-- 応答の**品質・再現性・効率**を向上させる
-
----
-
-## 📌 使用前のチェックポイント
-
-- 対象のタスクは明確か？（設計・説明・レビューなど）
-- 使用するテンプレートのカテゴリは把握しているか？
-- 期待する出力形式（テキスト／箇条書き／コード／表など）は指定されているか？
+- ChatGPTを **技術アシスタントとして最大限に活用**する  
+  *Maximize ChatGPT’s role as a technical assistant*  
+- プロンプトテンプレートの **正しい使い方とカスタマイズ方法** を習得する  
+  *Learn correct usage and customization of prompt templates*  
+- 応答の **品質・再現性・効率** を向上させる  
+  *Improve response quality, reproducibility, and efficiency*  
 
 ---
 
-## 🧭 基本的な使用手順 | Basic Usage Flow
+## 📌 使用前のチェックポイント | *Checklist Before Use*
+
+- 対象のタスクは明確か？（設計・説明・レビューなど）  
+  *Is the target task clear? (design, explanation, review, etc.)*  
+- 使用するテンプレートのカテゴリは把握しているか？  
+  *Do you know which template category to use?*  
+- 期待する出力形式（テキスト／箇条書き／コード／表など）は指定されているか？  
+  *Is the expected output format specified (text, bullets, code, tables, etc.)?*  
+
+---
+
+## 🧭 基本的な使用手順 | *Basic Usage Flow*
 
 1. **カテゴリを選ぶ**  
-   `prompt_templates.md` の中から目的にあったテンプレートを選択
+   `prompt_templates.md` の中から目的にあったテンプレートを選択  
+   *Choose a suitable template from `prompt_templates.md`*  
 
 2. **変数を埋める**  
-   `{}` で示されたプレースホルダに、自分の内容を入力
+   `{}` で示されたプレースホルダに、自分の内容を入力  
+   *Fill in placeholders `{}` with your content*  
 
 3. **明示的に指示する**  
-   出力形式や粒度（「3行で」「図式化して」「箇条書きで」など）を指定
+   出力形式や粒度（「3行で」「図式化して」「箇条書きで」など）を指定  
+   *Explicitly specify output format and level of detail*  
 
 4. **やりとりを繰り返す**  
-   足りない情報は再プロンプトで補足して深掘り
+   足りない情報は再プロンプトで補足して深掘り  
+   *Iterate prompts to refine missing information*  
 
 ---
 
-## 🧩 応用例 | Usage Examples
+## 🧩 応用例 | *Usage Examples*
 
-### 📘 例1：技術文書の要約
+### 📘 例1：技術文書の要約 | *Example 1: Technical Document Summarization*
 
 ```plaintext
 以下の技術文書を、3行で簡潔に要約してください：
@@ -47,7 +64,9 @@ A practical guide for using prompt templates effectively with SamizoGPT
 [ここに本文を貼り付け]
 ```
 
-### 🧱 例2：構成提案の支援
+---
+
+### 🧱 例2：構成提案の支援 | *Example 2: System Configuration Proposal*
 
 ```plaintext
 以下の仕様に基づいて、構成ブロック図の要素と概要を提案してください：
@@ -59,16 +78,20 @@ A practical guide for using prompt templates effectively with SamizoGPT
 
 ---
 
-## 🎯 効果的に使うためのヒント
+## 🎯 効果的に使うためのヒント | *Tips for Effective Use*
 
 - **具体的に書く**：あいまいな言葉（例：ちょっと、適当に）は避ける  
+  *Be specific; avoid vague terms like “a little” or “somehow”*  
 - **構造を意識する**：一覧化・比較表・図示などを指定すると精度が上がる  
-- **やりとりを段階化する**：大→中→小の順で深掘り（例：設計→構成→パラメータ）  
-- **役割を与える**：アシスタントに「あなたは制御工学の専門家です」と設定すると回答の質が安定する
+  *Ask for lists, comparison tables, or diagrams to improve clarity*  
+- **やりとりを段階化する**：大→中→小の順で深掘り  
+  *Break down tasks step by step (macro → mid → micro)*  
+- **役割を与える**：アシスタントに役割を設定すると回答の質が安定  
+  *Assign roles (e.g., “You are a control engineering expert”) for better results*  
 
 ---
 
-## 🚫 よくある失敗例
+## 🚫 よくある失敗例 | *Common Pitfalls*
 
 | 状況 | 問題点 | 改善策 |
 |------|--------|--------|
@@ -78,27 +101,30 @@ A practical guide for using prompt templates effectively with SamizoGPT
 
 ---
 
-## 🗃 プロンプト保存・再利用のすすめ
+## 🗃 プロンプト保存・再利用のすすめ | *Saving & Reusing Prompts*
 
-- よく使うプロンプトは `.prompt.md` に保存しておくと便利  
-- カスタムプロンプトセットをGitHubにまとめて再利用可能  
-- 対応するプロジェクト名でバージョン管理をすると混乱が減る
+- よく使うプロンプトは **`.prompt.md`** に保存しておくと便利  
+  *Save frequent prompts in `.prompt.md` files*  
+- カスタムプロンプトセットを **GitHubにまとめて再利用可能**  
+  *Reuse prompt sets by organizing them in GitHub*  
+- **プロジェクト名でバージョン管理**すると混乱が減る  
+  *Version control prompts per project name to reduce confusion*  
 
 ---
 
-## 🏗 拡張予定機能（構想）
+## 🏗 拡張予定機能（構想） | *Planned Extensions*
 
 - GUIでテンプレート選択 → 入力 → 結果表示の簡易ツール  
+  *GUI tool for selecting templates, inputting data, and showing results*  
 - タグ付け＆全文検索可能なプロンプトDB  
-- ChatGPT API用プロンプト→スクリプト変換機能
+  *Prompt database with tagging and full-text search*  
+- ChatGPT API用プロンプト→スクリプト変換機能  
+  *Conversion of prompts to scripts for ChatGPT API*  
 
 ---
 
-## ✍ 作者：三溝 真一 / Samizo-AITL
+## ✍ 作者 | *Author*
 
-- Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
-
----
-
-
+**三溝 真一 / Shinichi Samizo (Samizo-AITL)**  
+- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 💻 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
